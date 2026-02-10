@@ -1,0 +1,29 @@
+---
+siteTitle: Fumbly Workshop
+---
+
+<!DOCTYPE HTML>
+<!--
+	Relativity by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+
+<head>
+  <title>{ siteTitle }</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+  <div id="wrapper">
+    {% include 'header.html' %}
+    {{ content }}
+    {% include "footer.html" %}
+  </div>
+  {% include 'page-scripts.html' %}
+</body>
+
+</html>
