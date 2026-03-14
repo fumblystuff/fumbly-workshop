@@ -2,3 +2,14 @@
 layout: base
 ---
 
+<section class="main">
+  <header>
+    <h1>{{ title }}</h1>
+    {%- if heroText != blank %}
+    <p>{{ heroText }}</p>
+    {% endif %}
+  </header>
+  <div class="inner style2">
+    {{ content }}
+  </div>
+</section>
