@@ -6,10 +6,12 @@ layout: base
   <header>
     <h1>{{ title }}</h1>
     {%- if heroText != blank %}
-    <p>{{ heroText }}</p>
+    <div class="box">
+      {{ heroText }}
+    </div>
     {% endif %}
   </header>
-  <div class="inner style2">
+  <div class="inner">
     {{ content }}
   </div>
 </section>

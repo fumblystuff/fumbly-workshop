@@ -4,6 +4,7 @@ import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
 
 // Transforms
+import htmlPrettyTransform from './src/transforms/html-pretty.js';
 import htmlMinTransform from './src/transforms/html-min.js';
 
 export default async function (eleventyConfig) {
@@ -82,8 +83,12 @@ export default async function (eleventyConfig) {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
-	// Only minify HTML if we are in production
-	if (isProduction) eleventyConfig.addTransform('htmlmin', htmlMinTransform);
+	// // Only minify HTML if we are in production
+	// if (isProduction) { 
+	// 	eleventyConfig.addTransform('htmlMin', htmlMinTransform);
+	// } else {
+	// 	eleventyConfig.addTransform('htmlPretty', htmlPrettyTransform);
+	// }
 
 	return {
 		dir: {
