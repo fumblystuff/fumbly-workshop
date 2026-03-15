@@ -4,19 +4,12 @@
   <ul>
     {%- for entry in navPages %}
     <li {%- if entry.url==page.url %} class="current" {%- endif %}>
-      <a href="{{ entry.url }}"{% if entry.children.length %} class="icon solid fa-angle-down"{% endif %} >{{ entry.title }}</a>
+      <a href="{{ entry.url }}" {%- if entry.children.length > 0 %} class="icon solid fa-angle-down"{%- endif %} >{{ entry.title }}</a>
       {% if entry.children.length %}
       <ul>
         {% for child in entry.children %}
         <li>
-          <a href="{{ child.url }}">{{ child.text }}</a>
-          {% if child.children.length %}
-          <ul>
-            {% for grandchild in child.children %}
-            <li><a href="{{ grandchild.url }}">{{ grandchild.text }}</a></li>
-            {% endfor %}
-          </ul>
-          {% endif %}
+          <a href="{{ child.url }}">{{ child.title }}</a>
         </li>
         {% endfor %}
       </ul>
@@ -25,40 +18,3 @@
     {% endfor %}
   </ul>
 </nav>
-
-<!-- 
-<nav id="nav">
-    <ul>
-      {%- for entry in navPages %}
-      <li {% if entry.url==page.url %} class="current" {% endif %}>
-        <a href="{{ entry.url }}">{{ entry.title }}</a>
-      </li>
-      {%- endfor %}
-    </ul>
-</nav> -->
-
-<!-- <nav id="nav">
-  <ul>
-    <li><a href="/">Home</a></li>
-  <li>
-      <a href="/articles/" class="icon solid fa-angle-down">Articles</a>
-      <ul>
-        <li><a href="/articles/">All Articles</a></li>
-        <li><a href="/categories/">Categories</a></li>
-        <li><a href="/articles/popular/">Most Popular</a></li>
-      </ul>
-    </li>
-
-    <li><a href="/reviews/">Reviews</a></li>
-    <li><a href="/products/">Products</a></li>
-    <li><a href="/videos/">Videos</a></li>
-    <li>
-      <a href="/about/" class="icon solid fa-angle-down">About</a>
-      <ul>
-        <li><a href="#">Option One</a></li>
-        <li><a href="#">Option Two</a></li>
-        <li><a href="#">Option Three</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav> -->
