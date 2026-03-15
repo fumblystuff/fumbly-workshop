@@ -341,7 +341,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #e56f44 !important;
+			color: #4a98e2 !important;
 		}
 
 	strong, b {
@@ -2229,7 +2229,7 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
-		background-color: #e56f44;
+		background-color: #4a98e2;
 		color: #ffffff !important;
 	}
 
@@ -2238,7 +2238,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #e8805a;
+			background-color: #60a5e6;
 			color: #ffffff !important;
 		}
 
@@ -2247,7 +2247,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #e25e2e;
+			background-color: #348bde;
 		}
 
 		input[type="submit"].alt,
@@ -2515,8 +2515,8 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e56f44;
-			box-shadow: 0 0 0 1px #e56f44;
+			border-color: #4a98e2;
+			box-shadow: 0 0 0 1px #4a98e2;
 		}
 
 	select {
@@ -2540,16 +2540,16 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #e56f44;
-		border-color: #e56f44;
-		box-shadow: 0 0 0 1px #e56f44;
+		background-color: #4a98e2;
+		border-color: #4a98e2;
+		box-shadow: 0 0 0 1px #4a98e2;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #e56f44;
-		box-shadow: 0 0 0 1px #e56f44;
+		border-color: #4a98e2;
+		box-shadow: 0 0 0 1px #4a98e2;
 	}
 
 	::-webkit-input-placeholder {
@@ -3325,7 +3325,7 @@ input, select, textarea {
 		}
 
 	.post > .content header .category {
-		color: #e56f44;
+		color: #4a98e2;
 	}
 
 	.post.style2 {
@@ -3360,7 +3360,7 @@ input, select, textarea {
 				height: 0.25rem;
 				margin: 0 0 1.5rem 0;
 				border-radius: 4px;
-				background-color: #e56f44;
+				background-color: #4a98e2;
 			}
 
 		#wrapper > .main > .inner {
@@ -3399,7 +3399,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .main.accent1 {
-			background-color: #e56f44;
+			background-color: #4a98e2;
 			color: #ffffff;
 		}
 
@@ -3412,7 +3412,7 @@ input, select, textarea {
 			}
 
 				#wrapper > .main.accent1 a:hover {
-					color: #e56f44 !important;
+					color: #4a98e2 !important;
 				}
 
 			#wrapper > .main.accent1 strong, #wrapper > .main.accent1 b {
@@ -3445,7 +3445,7 @@ input, select, textarea {
 			#wrapper > .main.accent1 input[type="button"],
 			#wrapper > .main.accent1 button,
 			#wrapper > .main.accent1 .button {
-				background-color: #e56f44;
+				background-color: #4a98e2;
 				color: #ffffff !important;
 			}
 
@@ -3454,7 +3454,7 @@ input, select, textarea {
 				#wrapper > .main.accent1 input[type="button"]:hover,
 				#wrapper > .main.accent1 button:hover,
 				#wrapper > .main.accent1 .button:hover {
-					background-color: #e8805a;
+					background-color: #60a5e6;
 					color: #ffffff !important;
 				}
 
@@ -3463,7 +3463,7 @@ input, select, textarea {
 				#wrapper > .main.accent1 input[type="button"]:active,
 				#wrapper > .main.accent1 button:active,
 				#wrapper > .main.accent1 .button:active {
-					background-color: #e25e2e;
+					background-color: #348bde;
 				}
 
 				#wrapper > .main.accent1 input[type="submit"].alt,
@@ -3519,7 +3519,7 @@ input, select, textarea {
 
 				#wrapper > .main.accent1 select option {
 					color: #ffffff;
-					background: #e56f44;
+					background: #4a98e2;
 				}
 
 			#wrapper > .main.accent1 input[type="checkbox"] + label,
@@ -3537,7 +3537,7 @@ input, select, textarea {
 				background-color: #ffffff;
 				border-color: #ffffff;
 				box-shadow: 0 0 0 1px #ffffff;
-				color: #e56f44;
+				color: #4a98e2;
 			}
 
 			#wrapper > .main.accent1 input[type="checkbox"]:focus + label:before,
@@ -3595,11 +3595,11 @@ input, select, textarea {
 			}
 
 			#wrapper > .main.accent1 .post > .content header .category {
-				color: #e56f44;
+				color: #4a98e2;
 			}
 
 			#wrapper > .main.accent1 .post.style2 {
-				background-color: #e56f44;
+				background-color: #4a98e2;
 			}
 
 			@media screen and (max-width: 480px) {
@@ -3624,7 +3624,7 @@ input, select, textarea {
 			}
 
 				#wrapper > .main.accent2 a:hover {
-					color: #e56f44 !important;
+					color: #4a98e2 !important;
 				}
 
 			#wrapper > .main.accent2 strong, #wrapper > .main.accent2 b {
@@ -3657,7 +3657,7 @@ input, select, textarea {
 			#wrapper > .main.accent2 input[type="button"],
 			#wrapper > .main.accent2 button,
 			#wrapper > .main.accent2 .button {
-				background-color: #e56f44;
+				background-color: #4a98e2;
 				color: #ffffff !important;
 			}
 
@@ -3666,7 +3666,7 @@ input, select, textarea {
 				#wrapper > .main.accent2 input[type="button"]:hover,
 				#wrapper > .main.accent2 button:hover,
 				#wrapper > .main.accent2 .button:hover {
-					background-color: #e8805a;
+					background-color: #60a5e6;
 					color: #ffffff !important;
 				}
 
@@ -3675,7 +3675,7 @@ input, select, textarea {
 				#wrapper > .main.accent2 input[type="button"]:active,
 				#wrapper > .main.accent2 button:active,
 				#wrapper > .main.accent2 .button:active {
-					background-color: #e25e2e;
+					background-color: #348bde;
 				}
 
 				#wrapper > .main.accent2 input[type="submit"].alt,
@@ -3721,8 +3721,8 @@ input, select, textarea {
 				#wrapper > .main.accent2 input[type="email"]:focus,
 				#wrapper > .main.accent2 select:focus,
 				#wrapper > .main.accent2 textarea:focus {
-					border-color: #e56f44;
-					box-shadow: 0 0 0 1px #e56f44;
+					border-color: #4a98e2;
+					box-shadow: 0 0 0 1px #4a98e2;
 				}
 
 			#wrapper > .main.accent2 select {
@@ -3746,16 +3746,16 @@ input, select, textarea {
 
 			#wrapper > .main.accent2 input[type="checkbox"]:checked + label:before,
 			#wrapper > .main.accent2 input[type="radio"]:checked + label:before {
-				background-color: #e56f44;
-				border-color: #e56f44;
-				box-shadow: 0 0 0 1px #e56f44;
+				background-color: #4a98e2;
+				border-color: #4a98e2;
+				box-shadow: 0 0 0 1px #4a98e2;
 				color: #ffffff;
 			}
 
 			#wrapper > .main.accent2 input[type="checkbox"]:focus + label:before,
 			#wrapper > .main.accent2 input[type="radio"]:focus + label:before {
-				border-color: #e56f44;
-				box-shadow: 0 0 0 1px #e56f44;
+				border-color: #4a98e2;
+				box-shadow: 0 0 0 1px #4a98e2;
 			}
 
 			#wrapper > .main.accent2 ::-webkit-input-placeholder {
@@ -3807,7 +3807,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .main.accent2 .post > .content header .category {
-				color: #e56f44;
+				color: #4a98e2;
 			}
 
 			#wrapper > .main.accent2 .post.style2 {
@@ -4040,12 +4040,12 @@ input, select, textarea {
 						left: -0.25rem;
 						width: calc(100% + 0.5rem);
 						height: 0.25rem;
-						background-color: #e56f44;
+						background-color: #4a98e2;
 						border-radius: 4px;
 					}
 
 					#header > nav > ul > li.active > a {
-						color: #e56f44;
+						color: #4a98e2;
 					}
 
 			.dropotron {
@@ -4089,7 +4089,7 @@ input, select, textarea {
 					}
 
 					.dropotron li.active > a {
-						color: #e56f44;
+						color: #4a98e2;
 					}
 
 				.dropotron a {
@@ -4100,7 +4100,7 @@ input, select, textarea {
 				}
 
 					.dropotron a:active, .dropotron a:hover, .dropotron a:focus {
-						color: #e56f44;
+						color: #4a98e2;
 					}
 
 		#header.reveal {
@@ -4131,7 +4131,7 @@ input, select, textarea {
 			}
 
 				#header.alt a:hover {
-					color: #e56f44 !important;
+					color: #4a98e2 !important;
 				}
 
 			#header.alt strong, #header.alt b {
@@ -4292,7 +4292,7 @@ input, select, textarea {
 	}
 
 		#banner > .content {
-			background-color: #e56f44;
+			background-color: #4a98e2;
 			color: #ffffff;
 			-moz-transition: -moz-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 			-webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -4316,7 +4316,7 @@ input, select, textarea {
 			}
 
 				#banner > .content a:hover {
-					color: #e56f44 !important;
+					color: #4a98e2 !important;
 				}
 
 			#banner > .content strong, #banner > .content b {
@@ -4528,7 +4528,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #e56f44;
+		background: #4a98e2;
 		box-shadow: none;
 		color: #ffffff;
 		height: 100%;
