@@ -17,5 +17,3 @@ Source code project for https://fumblyworkshop.com
 - [ ] Search specific content types
 - [ ] Google Analytics
 - [ ] Newsletter
-
-
