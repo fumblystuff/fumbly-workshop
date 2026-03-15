@@ -1,5 +1,6 @@
 // import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
 
@@ -11,6 +12,7 @@ export default async function (eleventyConfig) {
 
 	const isProduction = process.env.NODE_ENV === 'production';
 
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	// eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
 	// ==========================

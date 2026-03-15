@@ -6,11 +6,10 @@ Source code project for https://fumblyworkshop.com
 
 - [ ] About page
 - [ ] Posts section (Articles)
-- [ ] News section
-- [ ] Products section
+- [ ] Products
 - [ ] Reviews
-- [ ] Use Eleventy Nav plugin to enable `class=current` in the menu
 - [ ] Newsletter sign-up
+- [ ] Use Eleventy Nav plugin to enable `class=current` in the menu
 - [ ] Favicon
 - [ ] Algolia Index
 - [ ] Search Site (make your own form instead of using Ray's)

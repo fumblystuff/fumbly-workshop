@@ -1,4 +1,43 @@
+{% assign navPages = collections.all | eleventyNavigation %}
+
 <nav id="nav">
+  <ul>
+    {%- for entry in navPages %}
+    <li {%- if entry.url==page.url %} class="current" {%- endif %}>
+      <a href="{{ entry.url }}"{% if entry.children.length %} class="icon solid fa-angle-down"{% endif %} >{{ entry.title }}</a>
+      {% if entry.children.length %}
+      <ul>
+        {% for child in entry.children %}
+        <li>
+          <a href="{{ child.url }}">{{ child.text }}</a>
+          {% if child.children.length %}
+          <ul>
+            {% for grandchild in child.children %}
+            <li><a href="{{ grandchild.url }}">{{ grandchild.text }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
+
+<!-- 
+<nav id="nav">
+    <ul>
+      {%- for entry in navPages %}
+      <li {% if entry.url==page.url %} class="current" {% endif %}>
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+      </li>
+      {%- endfor %}
+    </ul>
+</nav> -->
+
+<!-- <nav id="nav">
   <ul>
     <li><a href="/">Home</a></li>
   <li>
@@ -22,4 +61,4 @@
       </ul>
     </li>
   </ul>
-</nav>
+</nav> -->
