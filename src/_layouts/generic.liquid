@@ -9,9 +9,12 @@ layout: base
     <div class="box">
       {{ heroText }}
     </div>
-    {% endif %}
+    {%- endif %}
   </header>
-  <div class="inner">
+  <div class="inner style2">
+    {%- if headerImage != blank %}
+    <div class="image main" data-position="center"><img src="{{ headerImage }}" alt="Header image" /></div>
+    {%- endif %}
     {{ content }}
   </div>
 </section>
