@@ -6,6 +6,7 @@ Source code project for https://fumblyworkshop.com
 
 ## Tasks 
 
+- [ ] Home Page image attributes
 - [ ] About page
 - [ ] Articles
 - [ ] Products
