@@ -6,7 +6,8 @@ Source code project for https://fumblyworkshop.com
 
 ## Tasks 
 
-- [ ] Home Page image attributes
+- [ ] Home Page image attribution
+- [ ] Highlight Articles submenu with `current` class
 - [ ] About page
 - [ ] Articles
 - [ ] Products

@@ -5,7 +5,7 @@
     {%- for entry in navPages %}
     <li {%- if entry.url==page.url %} class="current" {%- endif %}>
       <a href="{{ entry.url }}" {%- if entry.children.length > 0 %} class="icon solid fa-angle-down"{%- endif %} >{{ entry.title }}</a>
-      {% if entry.children.length %}
+      {% if entry.children.length > 0 %}
       <ul>
         {% for child in entry.children %}
         <li>
