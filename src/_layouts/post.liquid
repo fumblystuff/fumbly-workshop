@@ -1,4 +1,45 @@
 ---
-layout: generic
+layout: base
 ---
-  
+
+{% assign previousPost = collections.post | getPreviousCollectionItem %}
+{% assign nextPost = collections.post | getNextCollectionItem %}
+{% include 'pretty-print.html' %}
+
+<section class="main">
+  <header>
+    <h1>{{ title }}</h1>
+    {%- if heroText != blank %}
+    <div class="box">
+      {{ heroText }}
+    </div>
+    {%- endif %}
+  </header>
+  <div class="inner style2">
+    {%- if headerImage != blank %}
+    <div class="image main" data-position="center"><img src="{{ headerImage }}" alt="Header image" /></div>
+    {%- endif %}
+    <p>
+      <strong>Posted: </strong>{{ timestamp | readableTimestamp }}
+      <strong>Categories:</strong>
+      {% for cat in categories %}
+      <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
+      {%- unless forloop.last %},
+      {% endunless %}
+      {% endfor %}
+    </p>
+    {% pageLinks %}
+    {{ content }}
+    <hr />
+    {% if nextPost %}
+    <p>Next Post:
+      <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+    </p>
+    {% endif %}
+    {% if previousPost %}
+    <p>Previous Post:
+      <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+    </p>
+    {% endif %}
+  </div>
+</section>

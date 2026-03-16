@@ -6,17 +6,17 @@ Source code project for https://fumblyworkshop.com
 
 ## Tasks 
 
-- [ ] Videos Page
+- [x] Videos Page
+- [x] Home Page image attribution
+- [ ] Highlight Articles submenu with `current` class
 - [ ] About page
 - [ ] Articles
-- [ ] Products
 - [ ] Reviews
-- [ ] Home Page image attribution
-- [ ] Highlight Articles submenu with `current` class
+- [ ] Products
 - [ ] Newsletter sign-up
 - [ ] Favicon
 - [ ] Algolia Index
 - [ ] Search Site (make your own form instead of using Ray's)
 - [ ] Search specific content types
 - [ ] Google Analytics
-- [ ] Newsletter
+- [ ] Newsletter (https://buttondown.com/)
