@@ -6,12 +6,13 @@ Source code project for https://fumblyworkshop.com
 
 ## Tasks 
 
-- [ ] Home Page image attribution
-- [ ] Highlight Articles submenu with `current` class
+- [ ] Videos Page
 - [ ] About page
 - [ ] Articles
 - [ ] Products
 - [ ] Reviews
+- [ ] Home Page image attribution
+- [ ] Highlight Articles submenu with `current` class
 - [ ] Newsletter sign-up
 - [ ] Favicon
 - [ ] Algolia Index

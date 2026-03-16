@@ -1,11 +1,21 @@
 ---
 layout: generic
 title: YouTube Videos
-heroText: this is some hero text
+heroText: Demonstrations and Tutorials on our YouTube channel.
 eleventyNavigation:
-  key: Videos
-  order: 5
+key: Videos
+order: 5
 ---
 
-Sadly, we have no video files yet.
-
+{% if videos.length > 0 %}
+<table>{% tablerow video in videos cols:2 %}
+  <h4><a href="https://www.youtube.com/watch?v={{ item.url }}" target="_blank">{{ video.title }}</a></h4>
+  <p>Created: {{ video.date | dateOnly }}</p>
+  {%- if video.description %}
+  <p>{{ video.description }}</p>
+  {%- endif %}
+  {% endtablerow %}
+</table>
+{% else %}
+<p>No video data to display.</p>
+{% endif %}
