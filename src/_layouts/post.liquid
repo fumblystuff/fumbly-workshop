@@ -1,10 +1,10 @@
 ---
 layout: base
+# heroText: This is some hero text
 ---
 
 {% assign previousPost = collections.post | getPreviousCollectionItem %}
 {% assign nextPost = collections.post | getNextCollectionItem %}
-{% include 'pretty-print.html' %}
 
 <section class="main">
   <header>
@@ -15,12 +15,13 @@ layout: base
     </div>
     {%- endif %}
   </header>
-  <div class="inner style2">
+  <div class="inner">
     {%- if headerImage != blank %}
     <div class="image main" data-position="center"><img src="{{ headerImage }}" alt="Header image" /></div>
     {%- endif %}
+    {% include 'pretty-print.html' %}
     <p>
-      <strong>Posted: </strong>{{ timestamp | readableTimestamp }}
+      <strong>Posted: </strong>{{ timestamp | readableTimestamp }}<br />
       <strong>Categories:</strong>
       {% for cat in categories %}
       <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>

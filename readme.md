@@ -8,9 +8,12 @@ Source code project for https://fumblyworkshop.com
 
 - [x] Videos Page
 - [x] Home Page image attribution
+- [x] Fix styling around the PageLinks section on Posts
 - [ ] Highlight Articles submenu with `current` class
 - [ ] About page
 - [ ] Articles
+- [ ] Most Popular Articles
+- [ ] Categories
 - [ ] Reviews
 - [ ] Products
 - [ ] Newsletter sign-up

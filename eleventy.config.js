@@ -3,7 +3,7 @@ import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
-
+import pageLinks from 'eleventy-plugin-markdown-page-links';
 // Transforms
 import htmlPrettyTransform from './src/transforms/html-pretty.js';
 import htmlMinTransform from './src/transforms/html-min.js';
@@ -12,8 +12,20 @@ export default async function (eleventyConfig) {
 
 	const isProduction = process.env.NODE_ENV === 'production';
 
+	// ==========================
+	// markdown configuration
+	// ==========================
+	const mdOptions = {
+		html: true,
+		breaks: true,
+		linkify: true,
+	};
+	const markdownLib = markdownIt(mdOptions)
+		.use(markdownItAttrs)
+		.disable('code');
+	eleventyConfig.setLibrary('md', markdownLib);
+
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
-	// eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
 	// ==========================
 	// image plugin
@@ -33,19 +45,22 @@ export default async function (eleventyConfig) {
 		}
 	});
 
-	// ==========================
-	// markdown configuration
-	// ==========================
-	const mdOptions = {
-		html: true,
-		breaks: true,
-		linkify: true,
-	};
-	const markdownLib = markdownIt(mdOptions)
-		.use(markdownItAttrs)
-		.disable('code');
-	eleventyConfig.setLibrary('md', markdownLib);
-
+	eleventyConfig.addPlugin(pageLinks, {
+		listType: 1,
+		collapsible: true,
+		sectionTitle: "Links On This Page",
+		minimumLinks: 5
+	});
+	
+	eleventyConfig.addCollection('articlesByTimestamp', collectionAPI => {
+		return collectionAPI.getFilteredByTag('post').sort((a, b) => {
+			// use the timestamp if we have it, otherwise date
+			var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
+			var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
+			return aDate - bDate;
+		});
+	});
+	
 	// ==========================
 	// utility stuff
 	// ==========================
@@ -75,6 +90,40 @@ export default async function (eleventyConfig) {
 		};
 		return theDate.toLocaleString(locale, options);
 	});
+
+	// From ray camden's blog, first paragraph as excerpt
+	eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
+	async function extractExcerpt(post) {
+
+		const noContent = '<p>No page content found.</p>'
+
+		// No page content?
+		if (!post.templateContent) return noContent;
+		let pageContent = post.templateContent;
+
+		// https://www.martingunnarsson.com/posts/eleventy-excerpts/
+		// Strip HTML from the paragraph
+		//  pageContent = pageContent.replace(/(<([^>]+)>)/gi, "");
+		// https://cheerio.js.org/docs/intro
+
+		// remove headings (H1, H2, etc.)
+		pageContent = pageContent.replace(/<(h[2-4])>((?:(?!<h\d+\b).)+?)<\/\1>/gm, '');
+		// remove picture tags
+		pageContent = pageContent.replace(/<picture[^>]*>(.*?)<\/picture>/gm, '');
+		// remove standalone IMG tags (just in case)
+		pageContent = pageContent.replace(/<img[^>]*>/gm, '');
+		// remove empty paragraph tags
+		pageContent = pageContent.replace(/<p>\s<\/p>/g, '');
+		pageContent = pageContent.replace(/<p><\/p>/g, '');
+
+		if (pageContent.indexOf('</p>') > 0) {
+			let start = pageContent.indexOf('<p>');
+			let end = pageContent.indexOf('</p>');
+			let theExcerpt = pageContent.substr(start, end + 4);
+			return theExcerpt;
+		}
+		return noContent;
+	}
 
 	eleventyConfig.addPassthroughCopy({ 'src/favicon/*': '/' });
 	[

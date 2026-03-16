@@ -1,0 +1,35 @@
+
+.generated {
+  border-radius: 5px;
+  padding: 3px;
+  background: #eee;
+  font-size: 0.5rem;
+  color: black;
+  border: 1px solid #999;
+  position: relative;
+  top: -1px;
+}
+
+table td {
+   width: 50%;
+}
+
+/*********************************
+ Details styling
+ For collapsible sections (page-links)
+*********************************/
+
+details {
+  border: 1pt solid #ddd;
+  border-right: 0;
+  border-left: 0;
+  margin-bottom: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+details ol {
+  list-style: decimal;
+  margin: 0.7rem 0 1em 0;
+  padding-left: 1.25em;
+}
