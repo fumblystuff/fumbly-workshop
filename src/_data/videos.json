@@ -2,28 +2,28 @@
   {
     "title": "Sample Video1",
     "date": "2026-01-01",
-    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "videoID": "QkF4pEy4YIY&t",
     "thumbnailImage": "",
     "description": "This is a sample video."
   },
   {
     "title": "Sample Video2",
     "date": "2026-01-01",
-    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "videoID": "QkF4pEy4YIY&t",
     "thumbnailImage": "",
     "description": "This is a sample video."
   },
   {
     "title": "Sample Video3",
     "date": "2026-01-01",
-    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "videoID": "QkF4pEy4YIY&t",
     "thumbnailImage": "",
     "description": "This is a sample video."
   },
   {
     "title": "Sample Video4",
     "date": "2026-01-01",
-    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "videoID": "QkF4pEy4YIY&t",
     "thumbnailImage": "",
     "description": "This is a sample video."
   }
