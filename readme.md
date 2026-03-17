@@ -17,7 +17,10 @@ Source code project for https://fumblyworkshop.com
 - [ ] Reviews
 - [ ] Products
 - [ ] Newsletter sign-up
+- [ ] Feeds (XML and JSON) for all article types
+- [ ] `robots.txt` file
 - [ ] Favicon
+- [ ] Manifest file
 - [ ] Algolia Index
 - [ ] Search Site (make your own form instead of using Ray's)
 - [ ] Search specific content types

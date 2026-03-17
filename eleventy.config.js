@@ -3,6 +3,9 @@ import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
+import pluginDate from 'eleventy-plugin-date';
+// My plugins
+import generateCategoryPages from 'eleventy-generate-category-pages';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 // Transforms
 import htmlPrettyTransform from './src/transforms/html-pretty.js';
@@ -11,6 +14,7 @@ import htmlMinTransform from './src/transforms/html-min.js';
 export default async function (eleventyConfig) {
 
 	const isProduction = process.env.NODE_ENV === 'production';
+	const categoryDataFile = 'categoryData.json';
 
 	// ==========================
 	// markdown configuration
@@ -25,7 +29,21 @@ export default async function (eleventyConfig) {
 		.disable('code');
 	eleventyConfig.setLibrary('md', markdownLib);
 
+	var firstRun = true;
+	eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
+		if (firstRun) {
+			firstRun = false;
+			generateCategoryPages({
+				dataFileName: categoryDataFile,
+				imageProperties: true,
+				quitOnError: true,
+				debugMode: false
+			});
+		}
+	});
+
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
+	eleventyConfig.addPlugin(pluginDate);
 
 	// ==========================
 	// image plugin
