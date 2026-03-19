@@ -9,13 +9,13 @@ Source code project for https://fumblyworkshop.com
 - [x] Videos Page
 - [x] Home Page image attribution
 - [x] Fix styling around the PageLinks section on Posts
-- [ ] Highlight Articles submenu with `current` class
+- [x] Articles
 - [ ] About page
-- [ ] Articles
 - [ ] Most Popular Articles
 - [ ] Categories
 - [ ] Reviews
 - [ ] Products
+- [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
 - [ ] Newsletter sign-up
 - [ ] Feeds (XML and JSON) for all article types
 - [ ] `robots.txt` file
@@ -26,3 +26,4 @@ Source code project for https://fumblyworkshop.com
 - [ ] Search specific content types
 - [ ] Google Analytics
 - [ ] Newsletter (https://buttondown.com/)
+- [ ] Highlight Articles submenu with `current` class
