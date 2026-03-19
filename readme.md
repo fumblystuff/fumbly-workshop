@@ -11,7 +11,6 @@ Source code project for https://fumblyworkshop.com
 - [x] Fix styling around the PageLinks section on Posts
 - [x] Articles
 - [ ] About page
-- [ ] Most Popular Articles
 - [ ] Categories
 - [ ] Reviews
 - [ ] Products
@@ -25,5 +24,7 @@ Source code project for https://fumblyworkshop.com
 - [ ] Search Site (make your own form instead of using Ray's)
 - [ ] Search specific content types
 - [ ] Google Analytics
+- [ ] Most Popular Articles
 - [ ] Newsletter (https://buttondown.com/)
 - [ ] Highlight Articles submenu with `current` class
+- [ ] Add stats page
