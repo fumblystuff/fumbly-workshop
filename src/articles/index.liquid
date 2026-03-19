@@ -27,21 +27,18 @@ pagination:
       <h4>
         <a href="{{ post.url }}" style="cursor: pointer">{{ post.data.title }}</a>
       </h4>
-      <strong>{{ post.data.timestamp | readableTimestamp }} {% if post.data.categories.length > 0 %}in
-          {% for cat in post.data.categories %}
+      <strong>{%- if post.data.timestamp %}
+        {{ post.data.timestamp | readableTimestamp }}{%- else %}{{ post.date | readableDate }}{%- endif %}
+        {%- if post.data.categories.length > 0 %}&nbsp;in {% for cat in post.data.categories %}
           <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
-          {%- unless forloop.last %},
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-      </strong>
-      <br/>
-      {% if post.data.description %}
+          {%- unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      {% endif %}</strong><br/>
+      {%- if post.data.description %}
         {% include 'generated.html' %}
       {% else %}
         {% excerpt post %}
-      {% endif %}
-    </li>
+      {% endif %}</li>
   {% endfor %}
 </ul>
 
