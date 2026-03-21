@@ -5,10 +5,10 @@
     "data": "collections.articlesByTimestamp",
     "size": 20,
     "alias": "catposts",
-    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories && item.data.categories.includes('Power Tools')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
+    "before": function(paginationData, fullData) {return paginationData.filter(item => {let catArray = [...item.data.categories]; item.data.categories && catArray.some(cat => cat === item.category)}).sort((a, b) => new Date(b.date) - new Date(a.date));}
   },
   "category": "Power Tools",
-  "description": "",
+  "description": "Posts related to power tools. I love power tools.",
   "eleventyComputed": {
     "title": "{{ category }}"
   },
