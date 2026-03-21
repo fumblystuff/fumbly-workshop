@@ -147,7 +147,7 @@ export default async function (eleventyConfig) {
 	[
 		'src/_data/*',
 		'src/assets/',
-		// 'src/images/'
+		'src/images/'
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
