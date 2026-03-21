@@ -15,7 +15,6 @@ Source code project for https://fumblyworkshop.com
 - [ ] About page content
 - [ ] Copy `workshop` posts from johnwargo.com
 - [ ] Fix categories plugin
-- [ ] Fix Image plugin (putting all images in root)
 - [ ] Feeds (XML and JSON) for all article types
 - [ ] `robots.txt` file
 - [ ] Favicon
@@ -24,14 +23,14 @@ Source code project for https://fumblyworkshop.com
 - [ ] Search Site (make your own form instead of using Ray's)
 - [ ] Search specific content types
 - [ ] Google Analytics
+- [ ] Highlight Articles submenu with `current` class
 
 **Fast Follows**
 - [ ] Enable home page buttons
 - [ ] Reviews
 - [ ] Products
+- [ ] Most Popular Articles
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
 - [ ] Newsletter sign-up
-- [ ] Most Popular Articles
 - [ ] Newsletter (https://buttondown.com/)
-- [ ] Highlight Articles submenu with `current` class
 - [ ] Stats page
