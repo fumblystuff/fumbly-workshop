@@ -6,16 +6,15 @@ Source code project for https://fumblyworkshop.com
 
 ## Tasks 
 
+**Critical for GA**
+
 - [x] Videos Page
 - [x] Home Page image attribution
 - [x] Fix styling around the PageLinks section on Posts
 - [x] Articles
-- [ ] About page
-- [ ] Categories
-- [ ] Reviews
-- [ ] Products
-- [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
-- [ ] Newsletter sign-up
+- [ ] About page content
+- [ ] Copy `workshop` posts from johnwargo.com
+- [ ] Fix categories plugin
 - [ ] Feeds (XML and JSON) for all article types
 - [ ] `robots.txt` file
 - [ ] Favicon
@@ -24,7 +23,13 @@ Source code project for https://fumblyworkshop.com
 - [ ] Search Site (make your own form instead of using Ray's)
 - [ ] Search specific content types
 - [ ] Google Analytics
+
+**Fast Follows**
+- [ ] Reviews
+- [ ] Products
+- [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
+- [ ] Newsletter sign-up
 - [ ] Most Popular Articles
 - [ ] Newsletter (https://buttondown.com/)
 - [ ] Highlight Articles submenu with `current` class
-- [ ] Add stats page
+- [ ] Stats page
