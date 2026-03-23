@@ -12,8 +12,10 @@ Source code project for https://fumblyworkshop.com
 - [x] Home Page image attribution
 - [x] Fix styling around the PageLinks section on Posts
 - [x] Articles
-- [ ] About page content
+- [x] About page content
 - [ ] Copy `workshop` posts from johnwargo.com
+- [ ] Scanned photos of dad's shop
+- [ ] My workshop page content
 - [ ] Fix categories plugin
 - [ ] Feeds (XML and JSON) for all article types
 - [ ] `robots.txt` file
