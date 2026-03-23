@@ -13,8 +13,10 @@ Source code project for https://fumblyworkshop.com
 - [x] Fix styling around the PageLinks section on Posts
 - [x] Articles
 - [x] About page content
-- [ ] Copy `workshop` posts from johnwargo.com
-- [ ] Scanned photos of dad's shop
+- [x] Copy `workshop` posts from johnwargo.com
+- [ ] Resize `slat-spacers` images.
+- [ ] Buttons for in-page navigation
+- [ ] Scanned photos of dad's shop on about page
 - [ ] My workshop page content
 - [ ] Fix categories plugin
 - [ ] Feeds (XML and JSON) for all article types

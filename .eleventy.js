@@ -109,6 +109,19 @@ export default async function (eleventyConfig) {
 		return theDate.toLocaleString(locale, options);
 	});
 
+		eleventyConfig.addPairedShortcode('sidebar', function (content, title = 'What It Means') {
+		// What it means (WIM) block
+		var paragraphs = content.split(/(?:\r?\n)+/);
+		var rc = '<div class="wim">';
+		rc += `<h3>${title}</h3>`;
+		paragraphs.forEach(paragraph => {
+			if (paragraph.trim() === '') return;
+			rc += `<p>${paragraph}</p>`;
+		});
+		rc += '</div>';
+		return rc;
+	});
+
 	// From ray camden's blog, first paragraph as excerpt
 	eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 	async function extractExcerpt(post) {
