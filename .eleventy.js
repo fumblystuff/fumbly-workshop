@@ -29,18 +29,18 @@ export default async function (eleventyConfig) {
 		.disable('code');
 	eleventyConfig.setLibrary('md', markdownLib);
 
-	// var firstRun = true;
-	// eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
-	// 	if (firstRun) {
-	// 		firstRun = false;
-	// 		generateCategoryPages({
-	// 			dataFileName: categoryDataFile,
-	// 			imageProperties: true,
-	// 			quitOnError: true,
-	// 			debugMode: false
-	// 		});
-	// 	}
-	// });
+	var firstRun = true;
+	eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
+		if (firstRun) {
+			firstRun = false;
+			generateCategoryPages({
+				dataFileName: categoryDataFile,
+				imageProperties: true,
+				quitOnError: true,
+				debugMode: false
+			});
+		}
+	});
 
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(pluginDate);

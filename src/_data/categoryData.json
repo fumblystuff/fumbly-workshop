@@ -1,5 +1,13 @@
 [
   {
+    "category": "3D Printing",
+    "count": 1,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "Power Tools",
     "count": 1,
     "description": "Posts related to power tools. I love power tools.",
@@ -11,6 +19,14 @@
     "category": "Tools",
     "count": 1,
     "description": "This category covers regular, everyday non-power tools.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Woodworking",
+    "count": 8,
+    "description": "",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""

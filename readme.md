@@ -27,6 +27,7 @@ Source code project for https://fumblyworkshop.com
 - [ ] Search Site (make your own form instead of using Ray's)
 - [ ] Search specific content types
 - [ ] Google Analytics
+- [ ] Redirect jmw woodworking posts to this site
 - [ ] Highlight Articles submenu with `current` class
 
 **Fast Follows**

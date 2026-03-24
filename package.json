@@ -1,5 +1,5 @@
 {
-  "name": "album-cube",
+  "name": "fumbly-workshop",
   "version": "0.0.0",
   "description": "Source code for https://albumcube.com",
   "keywords": [
@@ -9,16 +9,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnwargo/album-cube"
+    "url": "git+https://github.com/johnwargo/fumbly-workshop.git"
   },
   "bugs": {
-    "url": "https://github.com/johnwargo/album-cube/issues"
+    "url": "https://github.com/johnwargo/fumbly-workshop/issues"
   },
   "main": "index.js",
   "type": "module",
   "scripts": {
     "clean": "rimraf _site",
-    "build:eleventy": "eleventy",
+    "build:eleventy": "eleventy",    
     "watch:eleventy": "eleventy --serve --quiet",
     "start": "npm-run-all --sequential clean watch:eleventy",
     "build": "npm-run-all --sequential clean build:eleventy",
@@ -28,7 +28,7 @@
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.5",
-    "eleventy-generate-category-pages": "^0.1.4",
+    "eleventy-generate-category-pages": "file:../eleventy-generate-category-pages",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-markdown-page-links": "^0.0.17",
     "html-minifier": "^4.0.0",
