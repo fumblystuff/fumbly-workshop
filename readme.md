@@ -14,7 +14,6 @@ Source code project for https://fumblyworkshop.com
 - [x] Articles
 - [x] About page content
 - [x] Copy `workshop` posts from johnwargo.com
-- [ ] Resize `slat-spacers` images.
 - [ ] Buttons for in-page navigation
 - [ ] Scanned photos of dad's shop on about page
 - [ ] My workshop page content
@@ -39,3 +38,4 @@ Source code project for https://fumblyworkshop.com
 - [ ] Newsletter sign-up
 - [ ] Newsletter (https://buttondown.com/)
 - [ ] Stats page
+- [ ] Definitions page? Perhaps a shortcode for loading it?
