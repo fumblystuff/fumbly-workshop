@@ -5,7 +5,7 @@
     "data": "collections.articlesByTimestamp",
     "size": 20,
     "alias": "catposts",
-    "before": function(paginationData, fullData) { let data = paginationData.filter((item) => item.data.categories && item.data.categories.indexOf('3D Printing')> -1); console.log(`category: 3D Printing`); console.dir(data);return data.sort((a, b) => new Date(b.date) - new Date(a.date));}
+    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories && item.data.categories.includes('3D Printing')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "3D Printing",
   "description": "",

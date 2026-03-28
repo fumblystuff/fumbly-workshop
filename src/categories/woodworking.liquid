@@ -5,7 +5,7 @@
     "data": "collections.articlesByTimestamp",
     "size": 20,
     "alias": "catposts",
-    "before": function(paginationData, fullData) { let data = paginationData.filter((item) => item.data.categories && item.data.categories.indexOf('Woodworking')> -1); console.log(`category: Woodworking`); console.dir(data);return data.sort((a, b) => new Date(b.date) - new Date(a.date));}
+    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories && item.data.categories.includes('Woodworking')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "Woodworking",
   "description": "",
