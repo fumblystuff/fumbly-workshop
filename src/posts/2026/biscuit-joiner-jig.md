@@ -13,7 +13,8 @@ headerImage: null
 headerImageAltText: null
 headerImageAttribution: null
 categories:
-  - Woodworking
+  - 3D Printing
+  - Assembly Aids
 timestamp: 2026-02-05T01:26:43.041Z
 generatedDescription: true
 ---

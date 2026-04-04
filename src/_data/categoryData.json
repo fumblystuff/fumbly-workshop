@@ -1,40 +1,48 @@
 [
   {
     "category": "3D Printing",
+    "count": 6,
+    "description": "3D printed parts I use in my shop for a variety of things.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Assembly Aids",
+    "count": 4,
+    "description": "Assembly aids, typically 3D printed ones, I use in my shop to make assembly tasks easier.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "CNC",
     "count": 1,
-    "description": "",
+    "description": "CNC Router topics and projects.",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
   },
   {
-    "category": "Power Tools",
+    "category": "Dust Collection",
     "count": 1,
-    "description": "Posts related to power tools. I love power tools.",
+    "description": "Topics related to dust collection in the workshop.",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
   },
   {
-    "category": "Tools",
-    "count": 2,
-    "description": "This category covers regular, everyday non-power tools.",
+    "category": "Hand Tools",
+    "count": 1,
+    "description": "Various hand tools used in the workshop.",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
   },
   {
-    "category": "Uncategorized",
-    "count": 31,
-    "description": "",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
-  },
-  {
-    "category": "Woodworking",
-    "count": 8,
-    "description": "",
+    "category": "Templates",
+    "count": 1,
+    "description": "Templates and jigs used in the workshop.",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""

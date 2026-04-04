@@ -7,7 +7,8 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Woodworking
+  - 3D Printing
+  - Dust Collection
 timestamp: 2025-06-28T19:19:05.383Z
 ---
 

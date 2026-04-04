@@ -7,8 +7,8 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Woodworking
   - 3D Printing
+  - Templates
 timestamp: 2024-07-14T12:41:17.064Z
 ---
 

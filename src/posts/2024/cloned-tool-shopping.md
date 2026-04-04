@@ -7,7 +7,7 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Woodworking
+  - Hand Tools
 timestamp: 2024-07-24T23:26:59.645Z
 ---
 

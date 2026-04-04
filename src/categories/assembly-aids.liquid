@@ -5,10 +5,10 @@
     "data": "collections.articlesByTimestamp",
     "size": 20,
     "alias": "catposts",
-    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => { if (!item.data.categories) return false; let cats = [...item.data.categories]; return cats.includes(`Power Tools`);}); return data.sort((a, b) => new Date(b.date) - new Date(a.date));}
+    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => { if (!item.data.categories) return false; let cats = [...item.data.categories]; return cats.includes(`Assembly Aids`);}); return data.sort((a, b) => new Date(b.date) - new Date(a.date));}
   },
-  "category": "Power Tools",
-  "description": "Posts related to power tools. I love power tools.",
+  "category": "Assembly Aids",
+  "description": "Assembly aids, typically 3D printed ones, I use in my shop to make assembly tasks easier.",
   "eleventyComputed": {
     "title": "{{ category }}"
   },

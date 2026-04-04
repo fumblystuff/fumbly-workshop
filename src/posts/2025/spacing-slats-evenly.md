@@ -7,7 +7,8 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Woodworking
+  - 3D Printing
+  - Assembly Aids
 timestamp: 2025-07-16T11:24:54.999Z
 ---
 

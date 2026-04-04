@@ -7,7 +7,7 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories: 
-  - Woodworking
+  - CNC
 timestamp: 2025-05-13T11:14:37.088Z
 ---
 
