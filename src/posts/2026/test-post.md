@@ -2,7 +2,9 @@
 title: Test Post
 description: this is a test
 date: 2026-03-16
-categories: Power Tools
+categories: 
+  - Power Tools
+  - Tools
 timestamp: 2026-03-16T16:10:15.677Z
 ---
 
