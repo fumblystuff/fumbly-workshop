@@ -17,7 +17,7 @@ Source code project for https://fumblyworkshop.com
 - [ ] Buttons for in-page navigation
 - [ ] Scanned photos of dad's shop on about page
 - [ ] My workshop page content
-- [ ] Fix categories plugin
+- [x] Fix categories plugin
 - [ ] Feeds (XML and JSON) for all article types
 - [ ] `robots.txt` file
 - [ ] Favicon
