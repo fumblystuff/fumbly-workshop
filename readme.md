@@ -16,10 +16,10 @@ Source code project for https://fumblyworkshop.com
 - [x] Copy `workshop` posts from johnwargo.com
 - [x] Buttons for in-page navigation
 - [x] Fix categories plugin
-- [ ] Scanned photos of dad's shop on about page
-- [ ] My workshop page content
 - [ ] Feeds (XML and JSON) for all article types
 - [ ] `robots.txt` file
+- [ ] Scanned photos of dad's shop on about page
+- [ ] My workshop page content
 - [ ] Favicon
 - [ ] Manifest file
 - [ ] Algolia Index
@@ -33,9 +33,11 @@ Source code project for https://fumblyworkshop.com
 - [ ] Enable home page buttons
 - [ ] Reviews
 - [ ] Products
+- [ ] Tutorials page
 - [ ] Most Popular Articles
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
 - [ ] Newsletter sign-up
 - [ ] Newsletter (https://buttondown.com/)
+- [ ] Photo Gallery
 - [ ] Stats page
 - [ ] Definitions page? Perhaps a shortcode for loading it?

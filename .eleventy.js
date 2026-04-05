@@ -8,7 +8,6 @@ import pluginDate from 'eleventy-plugin-date';
 import generateCategoryPages from 'eleventy-generate-category-pages';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 // Transforms
-import htmlPrettyTransform from './src/transforms/html-pretty.js';
 import htmlMinTransform from './src/transforms/html-min.js';
 
 export default async function (eleventyConfig) {
@@ -69,7 +68,7 @@ export default async function (eleventyConfig) {
 		sectionTitle: "Links On This Page",
 		minimumLinks: 5
 	});
-	
+
 	eleventyConfig.addCollection('articlesByTimestamp', collectionAPI => {
 		return collectionAPI.getFilteredByTag('post').sort((a, b) => {
 			// use the timestamp if we have it, otherwise date
@@ -78,7 +77,7 @@ export default async function (eleventyConfig) {
 			return aDate - bDate;
 		});
 	});
-	
+
 	// ==========================
 	// utility stuff
 	// ==========================
@@ -109,7 +108,7 @@ export default async function (eleventyConfig) {
 		return theDate.toLocaleString(locale, options);
 	});
 
-		eleventyConfig.addPairedShortcode('sidebar', function (content, title = 'What It Means') {
+	eleventyConfig.addPairedShortcode('sidebar', function (content, title = 'What It Means') {
 		// What it means (WIM) block
 		var paragraphs = content.split(/(?:\r?\n)+/);
 		var rc = '<div class="wim">';
@@ -166,11 +165,9 @@ export default async function (eleventyConfig) {
 	});
 
 	// // Only minify HTML if we are in production
-	// if (isProduction) { 
-	// 	eleventyConfig.addTransform('htmlMin', htmlMinTransform);
-	// } else {
-	// 	eleventyConfig.addTransform('htmlPretty', htmlPrettyTransform);
-	// }
+	if (isProduction) {
+		eleventyConfig.addTransform('htmlMin', htmlMinTransform);
+	}
 
 	return {
 		dir: {
