@@ -16,21 +16,20 @@ Source code project for https://fumblyworkshop.com
 - [x] Copy `workshop` posts from johnwargo.com
 - [x] Buttons for in-page navigation
 - [x] Fix categories plugin
+- [ ] My workshop page content
 - [ ] Feeds (XML and JSON) for all article types
 - [ ] `robots.txt` file
 - [ ] Scanned photos of dad's shop on about page
-- [ ] My workshop page content
 - [ ] Favicon
 - [ ] Manifest file
+- [ ] Google Analytics
 - [ ] Algolia Index
 - [ ] Search Site (make your own form instead of using Ray's)
 - [ ] Search specific content types
-- [ ] Google Analytics
-- [ ] Redirect jmw woodworking posts to this site
-- [ ] Highlight Articles submenu with `current` class
 
 **Fast Follows**
 - [ ] Enable home page buttons
+- [ ] Highlight Articles submenu with `current` class
 - [ ] Reviews
 - [ ] Products
 - [ ] Tutorials page
