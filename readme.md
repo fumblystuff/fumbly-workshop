@@ -18,7 +18,7 @@ Source code project for https://fumblyworkshop.com
 - [x] Fix categories plugin
 - [x] Feeds (XML and JSON) for all article types
 - [x] `robots.txt` file
-- [ ] Google Analytics
+- [x] Google Analytics
 - [ ] My workshop page content
 - [ ] Scanned photos of dad's shop on about page
 - [ ] Favicon
