@@ -111,6 +111,10 @@ export default async function (eleventyConfig) {
 		return theDate.toLocaleString(locale, options);
 	});
 
+	eleventyConfig.addShortcode('GetKeywords', categories => {
+		return categories.join(', ');
+	});
+
 	eleventyConfig.addPairedShortcode('sidebar', function (content, title = 'What It Means') {
 		// What it means (WIM) block
 		var paragraphs = content.split(/(?:\r?\n)+/);

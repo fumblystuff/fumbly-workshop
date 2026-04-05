@@ -19,22 +19,23 @@ Source code project for https://fumblyworkshop.com
 - [x] Feeds (XML and JSON) for all article types
 - [x] `robots.txt` file
 - [x] Google Analytics
+- [x] Favicon
+- [x] Manifest file
+- [ ] Scanned photos of dad's shop on About page
 - [ ] My workshop page content
-- [ ] Scanned photos of dad's shop on about page
-- [ ] Favicon
-- [ ] Manifest file
 - [ ] Algolia Index
 - [ ] Search Site (make your own form instead of using Ray's)
 - [ ] Search specific content types
 
 **Fast Follows**
-- [ ] Enable home page buttons
-- [ ] Highlight Articles submenu with `current` class
+
 - [ ] Reviews
 - [ ] Products
 - [ ] Tutorials page
-- [ ] Most Popular Articles
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
+- [ ] Enable home page buttons
+- [ ] Highlight Articles submenu with `current` class
+- [ ] Most Popular Articles
 - [ ] Newsletter sign-up
 - [ ] Newsletter (https://buttondown.com/)
 - [ ] Photo Gallery
