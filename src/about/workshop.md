@@ -9,4 +9,6 @@ eleventyNavigation:
   order: 2
 ---
 
-<h3>Content Coming Soon</h3>
+> Coming Soon
+
+My intention with this page is to describe my workshop, listing my major power tools, jigs, and other stuff I use on a regular basis.

@@ -1,9 +1,10 @@
-// import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
+import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
 import pluginDate from 'eleventy-plugin-date';
+import pluginRss from '@11ty/eleventy-plugin-rss';
 // My plugins
 import generateCategoryPages from 'eleventy-generate-category-pages';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
@@ -41,9 +42,11 @@ export default async function (eleventyConfig) {
 		}
 	});
 
+	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(pluginDate);
-
+	eleventyConfig.addPlugin(pluginRss);
+	
 	// ==========================
 	// image plugin
 	// ==========================
