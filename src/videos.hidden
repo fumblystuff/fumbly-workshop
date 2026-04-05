@@ -1,11 +1,13 @@
 ---
 layout: generic
 title: YouTube Videos
-heroText: Demonstrations and Tutorials on our YouTube channel.
+heroText:
 eleventyNavigation:
   key: Videos
   order: 5
 ---
+
+Visit the Fumbly Workshop on <a href="https://www.youtube.com/channel/UCNxIOIfb_-cwPUgpNKrmmzg" target="_blank">YouTube</a>.<br />
 
 {% if videos.length > 0 %}
 <table>{% tablerow video in videos cols:2 %}
