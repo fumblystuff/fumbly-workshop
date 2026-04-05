@@ -14,10 +14,10 @@ Source code project for https://fumblyworkshop.com
 - [x] Articles
 - [x] About page content
 - [x] Copy `workshop` posts from johnwargo.com
-- [ ] Buttons for in-page navigation
+- [x] Buttons for in-page navigation
+- [x] Fix categories plugin
 - [ ] Scanned photos of dad's shop on about page
 - [ ] My workshop page content
-- [ ] Fix categories plugin
 - [ ] Feeds (XML and JSON) for all article types
 - [ ] `robots.txt` file
 - [ ] Favicon
