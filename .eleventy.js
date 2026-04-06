@@ -74,17 +74,17 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.addCollection('articlesByTimestamp', collectionAPI => {
 		return collectionAPI.getFilteredByTag('post')
-		.sort((a, b) => {
-			var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
-			var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
-			return aDate - bDate;
-		});
+			.sort((a, b) => {
+				var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
+				var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
+				return aDate - bDate;
+			});
 	});
 
 	eleventyConfig.addCollection("tutorials", collectionAPI => {
 		return collectionAPI.getAll()
-			.filter((item) => item.data.isTutorial && item.data.isTutorial == true)
-			.sort((a, b) => {
+		.filter((item) => item.data.isTutorial && item.data.isTutorial === true)
+		.sort((a, b) => {
 				var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
 				var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
 				return aDate - bDate;

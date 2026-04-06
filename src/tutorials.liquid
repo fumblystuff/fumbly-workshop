@@ -12,5 +12,36 @@ pagination:
   alias: tutorials
   reverse: true 
 ---
-  
-<p>This page lists all <strong>Tutorials</strong> in reverse chronological order.</p>
+
+{% include 'ai-disclaimer.html' %}
+{% include 'pagination-count.html' %}
+
+<ul class="posts">
+  {% for tutorial in tutorials %}
+    <li>
+      <h4>
+        <a href="{{ tutorial.url }}" style="cursor: pointer">{{ tutorial.data.title }}</a>
+      </h4>
+      <strong>Posted:</strong>&nbsp;
+      {%- if tutorial.data.timestamp %}
+        {{ tutorial.data.timestamp | readableTimestamp }}
+      {%- else %}
+        {{ tutorial.date | readableDate }}
+      {%- endif %}
+        {%- if tutorial.data.categories.length > 0 %}
+          &nbsp;in 
+          {% for cat in tutorial.data.categories %}
+            <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
+            {%- unless forloop.last %},{% endunless %}
+          {%- endfor %}
+        <br/>
+        {%- endif %}
+      {%- if tutorial.data.description %}
+        {% include 'generated.html' %}
+      {% else %}
+        {% excerpt tutorial %}
+      {% endif %}</li>
+  {% endfor %}
+</ul>
+
+{% include 'pagination-nav.html' %} 

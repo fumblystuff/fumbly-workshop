@@ -19,18 +19,19 @@ layout: base
     <div class="image main" data-position="center"><img src="{{ headerImage }}" alt="Header image" /></div>
     {%- endif %}
     {% include 'pretty-print.html' %}
-    <p>
-      <strong>Posted:</strong>&nbsp;{%- if timestamp %}
-      {{ timestamp | readableTimestamp }}
+    <p><strong>Posted:</strong>&nbsp;
+      {%- if timestamp %}
+        {{ timestamp | readableTimestamp }}
       {%- else %}
-      {{ date | readableDate }}
+        {{ date | readableDate }}
       {%- endif %}<br />
-      <strong>Categories:</strong>
-      {% for cat in categories %}
-      <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
-      {%- unless forloop.last %},
-      {% endunless %}
-      {% endfor %}
+      {%- if categories.length > 0 %}
+        <strong>Categories:</strong>
+        {% for cat in categories %}
+          <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
+          {%- unless forloop.last %},{% endunless %}
+        {% endfor %}
+      {%- endif %}
     </p>
     {% pageLinks %}
     {{ content }}
