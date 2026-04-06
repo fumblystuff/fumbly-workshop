@@ -83,7 +83,7 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.addCollection("tutorials", collectionAPI => {
 		return collectionAPI.getAll()
-		.filter((item) => item.data.isTutorial && item.data.isTutorial === true)
+		.filter((item) => item.data.isTutorial && item.data.isTutorial == true)
 		.sort(sortFunction);
 	});
 
