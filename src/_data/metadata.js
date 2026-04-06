@@ -1,5 +1,5 @@
 export default {
-	title: "John M. Wargo",
+	title: "Fumbly Workshop",
 	url: "https://fumblyworkshop.com",
 	language: "en",
 	description: "The Fumbly Workshop",
