@@ -75,7 +75,6 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addCollection('articlesByTimestamp', collectionAPI => {
 		return collectionAPI.getFilteredByTag('post')
 		.sort((a, b) => {
-			// use the timestamp if we have it, otherwise date
 			var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
 			var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
 			return aDate - bDate;
@@ -84,9 +83,8 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.addCollection("tutorials", collectionAPI => {
 		return collectionAPI.getAll()
-			.filter((item) => item.data.isTutorial === true)
+			.filter((item) => item.data.isTutorial && item.data.isTutorial == true)
 			.sort((a, b) => {
-				// use the timestamp if we have it, otherwise date
 				var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
 				var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
 				return aDate - bDate;
@@ -95,9 +93,8 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.addCollection("reviews", collectionAPI => {
 		return collectionAPI.getAll()
-			.filter((item) => item.data.isReview)
+			.filter((item) => item.data.isReview && item.data.isReview == true)
 			.sort((a, b) => {
-				// use the timestamp if we have it, otherwise date
 				var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
 				var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
 				return aDate - bDate;
