@@ -72,33 +72,25 @@ export default async function (eleventyConfig) {
 		minimumLinks: 5
 	});
 
+	function sortFunction(a, b){
+		var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
+		var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
+		return aDate - bDate;
+	}
 	eleventyConfig.addCollection('articlesByTimestamp', collectionAPI => {
-		return collectionAPI.getFilteredByTag('post')
-			.sort((a, b) => {
-				var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
-				var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
-				return aDate - bDate;
-			});
+		return collectionAPI.getFilteredByTag('post').sort(sortFunction);
 	});
 
 	eleventyConfig.addCollection("tutorials", collectionAPI => {
 		return collectionAPI.getAll()
 		.filter((item) => item.data.isTutorial && item.data.isTutorial === true)
-		.sort((a, b) => {
-				var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
-				var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
-				return aDate - bDate;
-			});
+		.sort(sortFunction);
 	});
 
 	eleventyConfig.addCollection("reviews", collectionAPI => {
 		return collectionAPI.getAll()
 			.filter((item) => item.data.isReview && item.data.isReview == true)
-			.sort((a, b) => {
-				var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
-				var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
-				return aDate - bDate;
-			});
+			.sort(sortFunction);
 	});
 
 	eleventyConfig.addFilter('dateOnly', function (dateVal, locale = 'en-us') {
