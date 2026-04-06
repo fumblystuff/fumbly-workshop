@@ -46,7 +46,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
-	
+
 	// ==========================
 	// image plugin
 	// ==========================
@@ -73,7 +73,8 @@ export default async function (eleventyConfig) {
 	});
 
 	eleventyConfig.addCollection('articlesByTimestamp', collectionAPI => {
-		return collectionAPI.getFilteredByTag('post').sort((a, b) => {
+		return collectionAPI.getFilteredByTag('post')
+		.sort((a, b) => {
 			// use the timestamp if we have it, otherwise date
 			var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
 			var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
@@ -81,9 +82,28 @@ export default async function (eleventyConfig) {
 		});
 	});
 
-	// ==========================
-	// utility stuff
-	// ==========================
+	eleventyConfig.addCollection("tutorials", collectionAPI => {
+		return collectionAPI.getAll()
+			.filter((item) => item.data.isTutorial === true)
+			.sort((a, b) => {
+				// use the timestamp if we have it, otherwise date
+				var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
+				var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
+				return aDate - bDate;
+			});
+	});
+
+	eleventyConfig.addCollection("reviews", collectionAPI => {
+		return collectionAPI.getAll()
+			.filter((item) => item.data.isReview)
+			.sort((a, b) => {
+				// use the timestamp if we have it, otherwise date
+				var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
+				var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
+				return aDate - bDate;
+			});
+	});
+
 	eleventyConfig.addFilter('dateOnly', function (dateVal, locale = 'en-us') {
 		// Used to display human readable date on the stats page and other pages
 		var theDate = new Date(dateVal);

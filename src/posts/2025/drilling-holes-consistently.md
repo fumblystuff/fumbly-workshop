@@ -10,6 +10,8 @@ categories:
   - 3D Printing
   - Assembly Aids
 timestamp: 2025-07-13T17:46:03.444Z
+isReview: false
+isTutorial: false
 ---
 
 Last week, I competed construction of the Rockler [Rockler Modern Patio Love Seat Plan with Templates](https://www.rockler.com/rockler-modern-patio-love-seat-plan-with-templates){target="_blank"} project. We have a couple of iron chairs next to our garage that we use all the time, and I was looking to replace them with something more comfortable and much better looking. Here's the completed project; I used Cypress wood for my version of it:

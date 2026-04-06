@@ -10,6 +10,8 @@ categories:
   - 3D Printing
   - Dust Collection
 timestamp: 2025-06-28T19:19:05.383Z
+isReview: false
+isTutorial: false
 ---
 
 Dust collection is a pretty big problem in my workshop; I've ignored it for a long time, but I decided I had to do something about it. My router table has built-in dust collection under the table and in the fence, but if I'm not using the fence, I make quite a mess in my workshop.

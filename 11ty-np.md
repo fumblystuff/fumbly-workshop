@@ -2,7 +2,7 @@
 title:  
 description: 
 date: 
-review: false
-tutorial: false
+isReview: false
+isTutorial: false
 categories: []
 ---

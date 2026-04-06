@@ -9,6 +9,8 @@ headerImageAttribution:
 categories: 
   - CNC
 timestamp: 2025-05-13T11:14:37.088Z
+isReview: false
+isTutorial: false
 ---
 
 Recently, I purchased a [FoxAlien Masuter Pro](https://www.foxalien.com/collections/masuter-series){target="_blank"} CNC Router for my workshop. I assembled all the parts and started testing the unit. Everything seemed to work, except for the spindle. I couldn't get the included software to turn the spindle on. 

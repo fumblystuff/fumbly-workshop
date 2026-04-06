@@ -10,6 +10,8 @@ categories:
   - 3D Printing
   - Assembly Aids
 timestamp: 2026-02-03T22:42:01.836Z
+isReview: false
+isTutorial: false
 ---
 
 I recently build a love seat/bench for my driveway using plans I purchased from Rockler. I made the bench out of Cypress wood so I wouldn't have to finish it, it would age naturally in the elements. Here's the bench:

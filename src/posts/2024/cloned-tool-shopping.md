@@ -9,6 +9,8 @@ headerImageAttribution:
 categories:
   - Hand Tools
 timestamp: 2024-07-24T23:26:59.645Z
+isReview: false
+isTutorial: false
 ---
 
 As you probably know from this site, I'm a geek and a software developer. I'm also a woodworker and it feels like I'm going to pull in more woodworker stories this year - mostly because I've been doing more woodworking than coding lately.

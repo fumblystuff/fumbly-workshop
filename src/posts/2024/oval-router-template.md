@@ -10,6 +10,8 @@ categories:
   - 3D Printing
   - Templates
 timestamp: 2024-07-14T12:41:17.064Z
+isReview: false
+isTutorial: false
 ---
 
 Over the US 4th of July holiday, we were hanging around with family when my sister in law mentioned that she wanted to get an Owl House for her back yard in order to attract an owl to live in her yard. I'd never made an Owl House before, so I quickly volunteered to make one for her. 
