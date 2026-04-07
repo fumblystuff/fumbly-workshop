@@ -72,7 +72,7 @@ export default async function (eleventyConfig) {
 		minimumLinks: 5
 	});
 
-	function sortFunction(a, b){
+	function sortFunction(a, b) {
 		var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
 		var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
 		return aDate - bDate;
@@ -81,15 +81,15 @@ export default async function (eleventyConfig) {
 		return collectionAPI.getFilteredByTag('post').sort(sortFunction);
 	});
 
-	eleventyConfig.addCollection("tutorials", collectionAPI => {
+	eleventyConfig.addCollection("allTutorials", collectionAPI => {
 		return collectionAPI.getAll()
-		.filter((item) => item.data.isTutorial && item.data.isTutorial == true)
-		.sort(sortFunction);
+			.filter((item) => item.data.isTutorial == true)
+			.sort(sortFunction);
 	});
 
-	eleventyConfig.addCollection("reviews", collectionAPI => {
+	eleventyConfig.addCollection("allReviews", collectionAPI => {
 		return collectionAPI.getAll()
-			.filter((item) => item.data.isReview && item.data.isReview == true)
+			.filter((item) => item.data.isReview == true)
 			.sort(sortFunction);
 	});
 
