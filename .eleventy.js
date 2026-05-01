@@ -61,7 +61,7 @@ export default async function (eleventyConfig) {
 		defaultAttributes: {
 			loading: 'lazy',
 			decoding: 'async',
-			class: 'image-full'
+			class: 'image fit'
 		}
 	});
 

@@ -2,9 +2,9 @@
 .cache/
 _site/
 node_modules/
-px-relativity-html/
+px-*/
 
 # Files
 .DS_Store
-px-relativity-html.zip
+px-*.zip
 11ty-np.json
