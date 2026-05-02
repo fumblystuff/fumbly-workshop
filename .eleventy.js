@@ -9,7 +9,8 @@ import pluginRss from '@11ty/eleventy-plugin-rss';
 import generateCategoryPages from 'eleventy-generate-category-pages';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 // Transforms
-import htmlMinTransform from './src/transforms/html-min.js';
+import htmlMinify from './transforms/transform-minify.js';
+import htmlPrettify from './transforms/transform-prettify.js';
 
 export default async function (eleventyConfig) {
 
@@ -180,9 +181,12 @@ export default async function (eleventyConfig) {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
-	// // Only minify HTML if we are in production
 	if (isProduction) {
-		eleventyConfig.addTransform('htmlMin', htmlMinTransform);
+		// Only minify HTML if we are in production
+		eleventyConfig.addTransform('txHtmlMinify', htmlMinify);
+	} else {
+		// otherwise prettify
+		eleventyConfig.addTransform('txHtmlPrettify', htmlPrettify);
 	}
 
 	return {
