@@ -14,6 +14,13 @@ table td {
    width: 50%;
 }
 
+picture .image.fit {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+}
+
+
 /*********************************
  Details styling
  For collapsible sections (page-links)
