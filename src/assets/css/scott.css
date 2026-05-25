@@ -15,11 +15,26 @@ table td {
 }
 
 picture .image.fit {
-  width: auto;
   height: 100%;
   max-width: 100%;
 }
 
+#wrapper > .main > .inner.style2 {
+  padding: 0 4rem 3rem 4rem;
+}
+
+ul.posts {
+  list-style: none;
+  text-indent: -1rem;
+}
+
+ul.posts h4 {
+  margin: 0 0 0.3rem 0;
+}
+
+ul.posts p {
+  text-indent: 0;
+}
 
 /*********************************
  Details styling
