@@ -23,6 +23,12 @@ picture .image.fit {
   padding: 0 4rem 3rem 4rem;
 }
 
+#wrapper > .main > .inner.style2 > .image.main:first-child {
+  top: -1rem;
+  left: 0!important;
+
+}
+
 ul.posts {
   list-style: none;
   text-indent: -1rem;
@@ -35,6 +41,7 @@ ul.posts h4 {
 ul.posts p {
   text-indent: 0;
 }
+
 
 /*********************************
  Details styling

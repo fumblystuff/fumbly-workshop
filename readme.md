@@ -21,7 +21,7 @@ Source code project for https://fumblyworkshop.com
 - [x] Google Analytics
 - [x] Favicon
 - [x] Manifest file
-- [ ] Fix scaling of images, should never happen
+- [x] Fix scaling of images, should never happen
 - [ ] Thumbnail image for article. Assigned per post or use category thumbnail
 - [ ] Scanned photos of dad's shop on About page
 - [ ] My workshop page content
