@@ -30,6 +30,9 @@ export default async function (eleventyConfig) {
 		.disable('code');
 	eleventyConfig.setLibrary('md', markdownLib);
 
+	// ==========================
+	// Category Pages
+	// ==========================
 	var firstRun = true;
 	eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
 		if (firstRun) {
