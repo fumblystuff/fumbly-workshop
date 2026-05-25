@@ -24,9 +24,7 @@ picture .image.fit {
 }
 
 #wrapper > .main > .inner.style2 > .image.main:first-child {
-  top: -1rem;
-  left: 0!important;
-
+  top: -1.5rem;
 }
 
 ul.posts {
@@ -42,7 +40,23 @@ ul.posts p {
   text-indent: 0;
 }
 
+.attributions { 
+  font-size: 0.8rem;
+}
 
+.attributions h3 {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+/* section.attributions {
+  padding: 2rem 3rem 0.5rem 3rem;
+} */
+
+#wrapper > .main {
+  padding: 2rem 3rem 0.5rem 3rem!important;
+
+}
 /*********************************
  Details styling
  For collapsible sections (page-links)
