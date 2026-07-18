@@ -14,7 +14,7 @@ this is some text
 <div class="text">
 Turkey landjaeger t-bone kielbasa cupim rump tail, beef ribs ribeye chuck pork belly drumstick jerky bresaola tri-tip. Pastrami frankfurter drumstick chicken porchetta short ribs boudin spare ribs hamburger polony. Capicola leberkas polony pig swine corned beef strip steak porchetta buffalo cupim chislic. Meatloaf pastrami leberkas hamburger, pork venison meatball bacon pancetta cow biltong kielbasa ham fatback burgdoggen.
 </div>
-<div class="image">
+<div class="image fit">
 <img src="/images/2026/biscuit-joiner-jig-02.jpg" alt="Alt text">
 <p class="caption">Caption text</p>
 </div>
