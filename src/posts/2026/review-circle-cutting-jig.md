@@ -56,29 +56,29 @@ The ellipse/circle cutting jigs are cool (and interesting) because they allow yo
 The jig comes with a t-track assembly that you use to set the center of the circle/arc being cut. 
 
 <div class="text-image">
-<div>
-<p>You must also screw in one of the included pins used to hold the jig in place in the center of the circle/arc.</p>
-</div>
-<div>
-<div>
-<img src="/images/2026/circle-cutting-jig-02.jpg" alt="Rockler Circle Cutting Jig center posts" class="image fit">
-<p class="caption">Caption text</p>
-</div>
-</div>
+  <div>
+    <p>You must also screw in one of the included pins used to hold the jig in place in the center of the circle/arc.</p>
+  </div>
+  <div>
+    <div>
+      <img src="/images/2026/circle-cutting-jig-02.jpg" alt="Rockler Circle Cutting Jig center posts" class="image fit">
+      <p class="caption">Caption text</p>
+    </div>
+  </div>
 </div>
 
 For our project, I set the t-track at 18 inches. and I drilled a small hole on the back of the board 18 inches from the top and either side; this marks the center of the arc. I selected the back of the board for the hole because I didn't want the hole showing on the guest-facing side of the display.
 
 <div class="text-image">
-<div>
-<p>Since I had a hole in the board, I selected the squared off pin as shown in the following figure. If I didn't want to drill a hole, I could have used the pointed pin either held down over a mark on the board or inserted in a small pilot hole.</p>
-</div>
-<div>
-<div>
-<img src="/images/2026/circle-cutting-jig-03.jpg" alt="Rockler Circle Cutting Jig center post inserted" class="image fit">
-<p class="caption">Rockler Circle Cutting Jig center post inserted</p>
-</div>
-</div>
+  <div>
+    <p>Since I had a hole in the board, I selected the squared off pin as shown in the following figure. If I didn't want to drill a hole, I could have used the pointed pin either held down over a mark on the board or inserted in a small pilot hole.</p>
+  </div>
+  <div>
+    <div>
+      <img src="/images/2026/circle-cutting-jig-03.jpg" alt="Rockler Circle Cutting Jig center post inserted" class="image fit">
+      <p class="caption">Rockler Circle Cutting Jig center post inserted</p>
+      </div>
+  </div>
 </div>
 
 ### Mounting the Router
@@ -94,27 +94,27 @@ The jig comes with three sets of pre-drilled holes that covers mounting many pop
 > **Note:** I didn't check for compatibility with my router first, I lucked out there since it was supported. I didn't find out until I got home with it and started assembling it. Double-check compatibility with your router before you purchase this jig.
 
 <div class="text-image">
-<div>
-<p>The instructions are pretty clear on how to find the mounting holes for the router, as shown in the following figure (borrowed from the documentation). It did take me a little while to figure out exactly what the placement was for the router and to make sure I got the right holes.</p>
-</div>
-<div>
-<div>
-<img src="/images/2026/circle-cutting-jig-04.png" alt="Rockler Circle Cutting Jig marked for my router" class="image fit">
-<p class="caption">Rockler Circle Cutting Jig marked for my router</p>
-</div>
-</div>
+  <div>
+    <p>The instructions are pretty clear on how to find the mounting holes for the router, as shown in the following figure (borrowed from the documentation). It did take me a little while to figure out exactly what the placement was for the router and to make sure I got the right holes.</p>
+  </div>
+  <div>
+    <div>
+      <img src="/images/2026/circle-cutting-jig-04.png" alt="Rockler Circle Cutting Jig marked for my router" class="image fit">
+      <p class="caption">Rockler Circle Cutting Jig marked for my router</p>
+    </div>
+  </div>
 </div>
 
 <div class="text-image">
-<div>
-<p>Once I figure that out, I realized that I didn't want to have to refer to the docs every time I mounted my router to the jig. So, to make this easier on myself, I used a marker to mark the bolt positions for my particular router as shown in the following image.</p>
-</div>
-<div>
-<div>
-<img src="/images/2026/circle-cutting-jig-05.jpg" alt="Rockler Circle Cutting Jig marked for my router" class="image fit">
-<p class="caption">Rockler Circle Cutting Jig marked for my router</p>
-</div>
-</div>
+  <div>
+    <p>Once I figure that out, I realized that I didn't want to have to refer to the docs every time I mounted my router to the jig. So, to make this easier on myself, I used a marker to mark the bolt positions for my particular router as shown in the following image.</p>
+  </div>
+  <div>
+    <div>
+      <img src="/images/2026/circle-cutting-jig-05.jpg" alt="Rockler Circle Cutting Jig marked for my router" class="image fit">
+      <p class="caption">Rockler Circle Cutting Jig marked for my router</p>
+    </div>
+  </div>
 </div>
 
 What Rockler should have done was color code the holes (with silkscreen circles, for example) so I didn't have to markup the jig for my router.
