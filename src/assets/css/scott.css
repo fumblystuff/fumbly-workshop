@@ -76,3 +76,28 @@ details ol {
   margin: 0.7rem 0 1em 0;
   padding-left: 1.25em;
 }
+
+/**********************************
+ text-image block
+ Added 2026-07-18 
+ **********************************/
+
+.text-image {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  clear:both;
+  column-gap: 2rem ;  
+}
+
+.ti-text {
+
+}
+
+.ti-image{
+
+}
+
+.caption {
+  margin-top: -1.8rem;
+  font-style: italic;  
+}
