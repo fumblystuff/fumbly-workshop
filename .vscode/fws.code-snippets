@@ -30,5 +30,21 @@
 			"{% endsidebar %}"
 		],
 		"description": "What it Means Block (Sidebar)"
+	},
+		"Text & Image": {
+		"scope": "markdown, liquid",
+		"prefix": "!textimage",
+		"body": [
+			"<div class=\"text-image\">",
+				"<div class=\"text\">",
+					"",
+				"</div>",
+				"<div class=\"image\">",
+					"<img src=\"/images/2026/\" alt=\"\">",
+					"<p class=\"caption\">Caption text</p>",
+				"</div>",
+			"</div>"
+		],
+		"description": "Text & Image Block"
 	}
 }
