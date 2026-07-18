@@ -33,15 +33,17 @@
 	},
 	"Text & Image": {
 		"scope": "markdown, liquid",
-		"prefix": "!textimage",
+		"prefix": "!text-image-block",
 		"body": [
 			"<div class=\"text-image\">",
-			"<div class=\"text\">",
+			"<div>",
 			"<p></p>",
 			"</div>",
-			"<div class=\"image\">",
-			"<img src=\"/images/2026/\" alt=\"\">",
+			"<div>",
+			"<div>",
+			"<img src=\"/images/2026/\" alt=\"\" class=\"image fit\">",
 			"<p class=\"caption\">Caption text</p>",
+			"</div>",
 			"</div>",
 			"</div>"
 		],
