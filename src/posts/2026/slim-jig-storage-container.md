@@ -1,6 +1,6 @@
 ---
 title: Building a Slim Jig Storage Container
-description: 
+description: In my Rockler Circle Cutting Jig post, I explained that even through I liked the jig, I was disappointed that Rockler built the packaging in such a way that once you took the jig out of the packaging, you couldn't put any of it back. Customers had no way to store the jig along with its associated parts. This post describes how to make the storage case I created to store everything together.
 date: 2026-07-18
 isReview: false
 isTutorial: false
@@ -8,10 +8,7 @@ categories:
 timestamp: 2026-07-18T21:37:33.907Z
 ---
 
-> [!WARNING]
-> This is a work in progress, the post is not finished yet
-
-In [Rockler Circle Cutting Jig](/posts/2026/review-circle-cutting-jig/), I explained that even through I liked the jig, I was really disappointed that Rockler built the packaging in such a way that once you took the jig out of the packaging, you couldn't put any of it back. They needed to ship the product in a box, but instead they chose a much less expensive option and simply plastered the parts to a big piece of cardboard.
+In [Rockler Circle Cutting Jig](/posts/2026/review-circle-cutting-jig/) post, I explained that even through I liked the jig, I was very disappointed that Rockler built the packaging in such a way that once you took the jig out of the packaging, you couldn't put any of it back. They needed to ship the product in a box, but instead they chose a much less expensive option and simply plastered the parts to a big piece of cardboard.
 
 I own this jig, so I had to figure out how to store it and its associated parts. I decided to build a simple wooden box for it with a magnetic lid. This post shows you how to build something like it.
 
@@ -30,7 +27,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 
 <div class="text-image">
 <div>
-<p>Here's an image of the finished project; a hard case that holds the jig and all the additional parts you need to use it. I have a bunch of long Woodpeckers tools, so I just stack this in the corner with all of them.</p>
+<p>Here's an image of the finished project; a hard case that holds the jig and all the additional parts you need to use it. I have a bunch of long Woodpeckers tools, that come in boxes appropriately sized to hold the product after first use, so I just stack this in the corner with all of them.</p>
 </div>
 <div>
 <div>
@@ -177,38 +174,42 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 </div>
 
+Now its time to frame the outside of the case. Remember the Part B parts we cut earlier? Well, I added those so I'd have a place to attach a lid for the case. I really only needed two of them (for the case opening), but decided to use four of them, two at the top and two at the bottom, to add a bit of consistency to the top and bottom of the case.
+
+Make sure that all four pieces are cut to the exact width of the case. Or, if you want to, you can leave them a little wide and trim them to the case using the router and a flush trim bit (that's what I did).
+
 <div class="text-image">
 <div>
-<p>Shoulder doner pig, bresaola fatback short loin meatloaf ham. Pork loin tenderloin meatloaf ribeye. Prosciutto pastrami andouille tenderloin leberkas mortadella doner pancetta jowl jerky alcatra. Kevin jowl filet mignon shankle swine chislic turducken ball tip chuck chicken landjaeger kielbasa.</p>
+<p>Glue two pieces to the panels at the very bottom of the case, one on either side. My apologies that the image doesn't show this.</p>
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-13.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/slim-jig-holder-13.jpg" alt="Trim piece for the case bottom" class="image fit">
+<p class="caption">Trim piece for the case bottom</p>
 </div>
 </div>
 </div>
 
 <div class="text-image">
 <div>
-<p>Shoulder doner pig, bresaola fatback short loin meatloaf ham. Pork loin tenderloin meatloaf ribeye. Prosciutto pastrami andouille tenderloin leberkas mortadella doner pancetta jowl jerky alcatra. Kevin jowl filet mignon shankle swine chislic turducken ball tip chuck chicken landjaeger kielbasa.</p>
+<p>For the top, glue two pieces to the top of the panels. The point here is to glue them plywood width from the top. We'll make aa lid piece later that fits here and you want it to be flush with the top of the panels and the top of the frame. Skip ahead two images and you'll see what I mean. My apologies that the image doesn't show this.</p>
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-14.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/slim-jig-holder-14.jpg" alt="Trim piece for the case top" class="image fit">
+<p class="caption">Trim piece for the case top</p>
 </div>
 </div>
 </div>
 
 <div class="text-image">
 <div>
-<p>Shoulder doner pig, bresaola fatback short loin meatloaf ham. Pork loin tenderloin meatloaf ribeye. Prosciutto pastrami andouille tenderloin leberkas mortadella doner pancetta jowl jerky alcatra. Kevin jowl filet mignon shankle swine chislic turducken ball tip chuck chicken landjaeger kielbasa.</p>
+<p>Use clamps to hold the pieces in place as the glue cures.</p>
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-15.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/slim-jig-holder-15.jpg" alt="Clamping the trim pieces" class="image fit">
+<p class="caption">Clamping the trim pieces</p>
 </div>
 </div>
 </div>
