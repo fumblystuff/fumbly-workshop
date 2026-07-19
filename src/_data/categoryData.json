@@ -41,6 +41,14 @@
   },
   {
     "category": "Jigs",
+    "count": 2,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Projects",
     "count": 1,
     "description": "",
     "imageFilePath": "",
@@ -51,14 +59,6 @@
     "category": "Templates",
     "count": 1,
     "description": "Templates and jigs used in the workshop.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
-  },
-  {
-    "category": "Uncategorized",
-    "count": 1,
-    "description": "",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""

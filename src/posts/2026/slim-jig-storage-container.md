@@ -5,6 +5,7 @@ date: 2026-07-18
 isReview: false
 isTutorial: false
 categories: 
+  - Projects
 timestamp: 2026-07-18T21:37:33.907Z
 ---
 
@@ -19,7 +20,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-00.jpg" alt="The Rockler circle cutting jig outside of its packaging" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-00.jpg" alt="The Rockler circle cutting jig outside of its packaging" class="image fit">
 <p class="caption">Rockler circle cutting jig outside of its packaging</p>
 </div>
 </div>
@@ -32,7 +33,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-01.jpg" alt="The finished project" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-01.jpg" alt="The finished project" class="image fit">
 <p class="caption">The finished project</p>
 </div>
 </div>
@@ -46,7 +47,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-02.jpg" alt="Case shell parts" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-02.jpg" alt="Case shell parts" class="image fit">
 <p class="caption">Case shell parts</p>
 </div>
 </div>
@@ -59,7 +60,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-03.jpg" alt="Additional plywood pieces needed" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-03.jpg" alt="Additional plywood pieces needed" class="image fit">
 <p class="caption">Additional plywood pieces needed</p>
 </div>
 </div>
@@ -71,7 +72,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-04.jpg" alt="Using a stop block to make consistent cuts" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-04.jpg" alt="Using a stop block to make consistent cuts" class="image fit">
 <p class="caption">Using a stop block to make consistent cuts</p>
 </div>
 </div>
@@ -84,7 +85,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-05.jpg" alt="Starting to build the frame" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-05.jpg" alt="Starting to build the frame" class="image fit">
 <p class="caption">Starting to build the frame</p>
 </div>
 </div>
@@ -96,7 +97,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-06.jpg" alt="Gluing the bottom of the frame" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-06.jpg" alt="Gluing the bottom of the frame" class="image fit">
 <p class="caption">Gluing the bottom of the frame</p>
 </div>
 </div>
@@ -109,7 +110,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-07.jpg" alt="Gluing the panels to the frame" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-07.jpg" alt="Gluing the panels to the frame" class="image fit">
 <p class="caption">Gluing the panels to the frame</p>
 </div>
 </div>
@@ -121,7 +122,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-08.jpg" alt="One side of the case assembled" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-08.jpg" alt="One side of the case assembled" class="image fit">
 <p class="caption">One side of the case assembled</p>
 </div>
 </div>
@@ -133,7 +134,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-09.jpg" alt="Assembling the base case" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-09.jpg" alt="Assembling the base case" class="image fit">
 <p class="caption">Assembling the base case</p>
 </div>
 </div>
@@ -145,7 +146,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-10.jpg" alt="Partially assembled case" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-10.jpg" alt="Partially assembled case" class="image fit">
 <p class="caption">Partially assembled case</p>
 </div>
 </div>
@@ -157,7 +158,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-11.jpg" alt="Using the router to trim away excess panel" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-11.jpg" alt="Using the router to trim away excess panel" class="image fit">
 <p class="caption">Using the router to trim away excess panel</p>
 </div>
 </div>
@@ -169,7 +170,7 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-12.jpg" alt="Perfectly flush sides" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-12.jpg" alt="Perfectly flush sides" class="image fit">
 <p class="caption">Perfectly flush sides</p>
 </div>
 </div>
@@ -185,7 +186,7 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-13.jpg" alt="Trim piece for the case bottom" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-13.jpg" alt="Trim piece for the case bottom" class="image fit">
 <p class="caption">Trim piece for the case bottom</p>
 </div>
 </div>
@@ -197,7 +198,7 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-14.jpg" alt="Trim piece for the case top" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-14.jpg" alt="Trim piece for the case top" class="image fit">
 <p class="caption">Trim piece for the case top</p>
 </div>
 </div>
@@ -209,7 +210,7 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-15.jpg" alt="Clamping the trim pieces" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-15.jpg" alt="Clamping the trim pieces" class="image fit">
 <p class="caption">Clamping the trim pieces</p>
 </div>
 </div>
@@ -221,7 +222,7 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-16.jpg" alt="The finished top of the case" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-16.jpg" alt="The finished top of the case" class="image fit">
 <p class="caption">The finished top of the case</p>
 </div>
 </div>
@@ -234,7 +235,7 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-17.jpg" alt="The top piece dry fitted on the case" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-17.jpg" alt="The top piece dry fitted on the case" class="image fit">
 <p class="caption">The top piece dry fitted on the case</p>
 </div>
 </div>
@@ -246,7 +247,7 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-18.jpg" alt="Making sure the hinges aren't too big" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-18.jpg" alt="Making sure the hinges aren't too big" class="image fit">
 <p class="caption">Making sure the hinges aren't too big</p>
 </div>
 </div>
@@ -258,7 +259,7 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-19.jpg" alt="Taping the hinges to the top" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-19.jpg" alt="Taping the hinges to the top" class="image fit">
 <p class="caption">Taping the hinges to the top</p>
 </div>
 </div>
@@ -270,7 +271,7 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-20.jpg" alt="The finished top assembly" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-20.jpg" alt="The finished top assembly" class="image fit">
 <p class="caption">The finished top assembly</p>
 </div>
 </div>
@@ -278,5 +279,5 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 
 Since the jig didn't come with any instruction manual, I had to keep the cardboard packaging. Rather than folding it up and sticking it in the case with the jig and parts, I decided instead to glue it to the back of the case. This was the perfect solution for me, since this allows me quick and easy access to the instructions plus gives me an easy way to identify what's in the case.
 
-<img src="/images/2026/slim-jig-holder-01.jpg" alt="The finished case" class="image fit">
+<img src="/images/2026/slim-jig-holder/slim-jig-holder-01.jpg" alt="The finished case" class="image fit">
 <p class="caption">The finished case</p>
