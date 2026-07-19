@@ -216,12 +216,12 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 
 <div class="text-image">
 <div>
-<p>Shoulder doner pig, bresaola fatback short loin meatloaf ham. Pork loin tenderloin meatloaf ribeye. Prosciutto pastrami andouille tenderloin leberkas mortadella doner pancetta jowl jerky alcatra. Kevin jowl filet mignon shankle swine chislic turducken ball tip chuck chicken landjaeger kielbasa.</p>
+<p>This is what the top of the case should look like at this point; what you see here is the frame sides and trim pieces making a shelf you can I add a hinged top to the case.</p>
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-16.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/slim-jig-holder-16.jpg" alt="The finished top of the case" class="image fit">
+<p class="caption">The finished top of the case</p>
 </div>
 </div>
 </div>
