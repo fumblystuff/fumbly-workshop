@@ -8,8 +8,8 @@ categories:
 timestamp: 2026-07-18T21:37:33.907Z
 ---
 
-> [!IMPORTANT]
-> Work in progress, this post is not done yet.
+> [!WARNING]
+> This is a work in progress, the post is not finished yet
 
 In [Rockler Circle Cutting Jig](/posts/2026/review-circle-cutting-jig/), I explained that even through I liked the jig, I was really disappointed that Rockler built the packaging in such a way that once you took the jig out of the packaging, you couldn't put any of it back. They needed to ship the product in a box, but instead they chose a much less expensive option and simply plastered the parts to a big piece of cardboard.
 
