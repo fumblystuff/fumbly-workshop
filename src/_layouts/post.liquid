@@ -36,6 +36,7 @@ layout: base
     {% pageLinks %}
     {{ content }}
     <hr />
+    {% include "coffee.html" %}
     {% if nextPost %}
     <p>Next Post:
       <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>

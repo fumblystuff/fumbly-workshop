@@ -27,7 +27,8 @@ Its almost embarrassing, so little attention being paid to how a consumer will s
 
 <div class="text-image">
 <div>
-<p>Here's an image of the finished project; a hard case that holds the jig and all the additional parts you need to use it. I have a bunch of long Woodpeckers tools, that come in boxes appropriately sized to hold the product after first use, so I just stack this in the corner with all of them.</p>
+<p>Here's an image of the finished project; a hard case that holds the jig and all the additional parts you need to use it.</p>
+<p> I have a bunch of long Woodpeckers tools, that come in boxes appropriately sized to hold the product after first use, so I just stack this in the corner with all of them.</p>
 </div>
 <div>
 <div>
@@ -228,48 +229,54 @@ Make sure that all four pieces are cut to the exact width of the case. Or, if yo
 
 <div class="text-image">
 <div>
-<p>Shoulder doner pig, bresaola fatback short loin meatloaf ham. Pork loin tenderloin meatloaf ribeye. Prosciutto pastrami andouille tenderloin leberkas mortadella doner pancetta jowl jerky alcatra. Kevin jowl filet mignon shankle swine chislic turducken ball tip chuck chicken landjaeger kielbasa.</p>
+<p>Here's the top piece dry fitted at the top of the case.</p>
+<p>All we have to do to finish the case is attach this to the top and install some sort of latching mechanism.</p>
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-17.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/slim-jig-holder-17.jpg" alt="The top piece dry fitted on the case" class="image fit">
+<p class="caption">The top piece dry fitted on the case</p>
 </div>
 </div>
 </div>
 
 <div class="text-image">
 <div>
-<p>Shoulder doner pig, bresaola fatback short loin meatloaf ham. Pork loin tenderloin meatloaf ribeye. Prosciutto pastrami andouille tenderloin leberkas mortadella doner pancetta jowl jerky alcatra. Kevin jowl filet mignon shankle swine chislic turducken ball tip chuck chicken landjaeger kielbasa.</p>
+<p>Grab a couple of hinges that aren't too big for the plywood width, the image shows the ones I used laid against the assembly. </p>
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-18.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/slim-jig-holder-18.jpg" alt="Making sure the hinges aren't too big" class="image fit">
+<p class="caption">Making sure the hinges aren't too big</p>
 </div>
 </div>
 </div>
 
 <div class="text-image">
 <div>
-<p>Shoulder doner pig, bresaola fatback short loin meatloaf ham. Pork loin tenderloin meatloaf ribeye. Prosciutto pastrami andouille tenderloin leberkas mortadella doner pancetta jowl jerky alcatra. Kevin jowl filet mignon shankle swine chislic turducken ball tip chuck chicken landjaeger kielbasa.</p>
+<p>Next, I taped the hinges to the top so I could position the top correctly on the case then screw the hinges to the case. Then I screwed the hinges in place on the top. I know that probably reads weird, but what I was trying to accomplish here was correct placement of the hinges on the case, then tighten it all up when I screwed the top in place.</p>
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-19.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/slim-jig-holder-19.jpg" alt="Taping the hinges to the top" class="image fit">
+<p class="caption">Taping the hinges to the top</p>
 </div>
 </div>
 </div>
 
 <div class="text-image">
 <div>
-<p>Shoulder doner pig, bresaola fatback short loin meatloaf ham. Pork loin tenderloin meatloaf ribeye. Prosciutto pastrami andouille tenderloin leberkas mortadella doner pancetta jowl jerky alcatra. Kevin jowl filet mignon shankle swine chislic turducken ball tip chuck chicken landjaeger kielbasa.</p>
+<p>Here it is, the finished assembly. For a closing mechanism, I used rare earth magnets but I didn't take any pictures of the process. I did print a little handle for it which you can see in the image at the end of the article.You could use some sort of catch or hook or even a leather strap and velcro for yours.</p>
 </div>
 <div>
 <div>
-<img src="/images/2026/slim-jig-holder-20.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/slim-jig-holder-20.jpg" alt="The finished top assembly" class="image fit">
+<p class="caption">The finished top assembly</p>
 </div>
 </div>
 </div>
+
+Since the jig didn't come with any instruction manual, I had to keep the cardboard packaging. Rather than folding it up and sticking it in the case with the jig and parts, I decided instead to glue it to the back of the case. This was the perfect solution for me, since this allows me quick and easy access to the instructions plus gives me an easy way to identify what's in the case.
+
+<img src="/images/2026/slim-jig-holder-01.jpg" alt="The finished case" class="image fit">
+<p class="caption">The finished case</p>

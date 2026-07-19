@@ -57,6 +57,16 @@ ul.posts p {
   margin-bottom: 0.2rem;
 }
 
+
+.image.right.coffee {
+  max-width: 290px;
+}
+
+.image.right.coffee p {
+  margin: 0.5rem 0.5rem 1rem 1rem;
+  line-height: 1.4;
+}
+
 /* section.attributions {
   padding: 2rem 3rem 0.5rem 3rem;
 } */
