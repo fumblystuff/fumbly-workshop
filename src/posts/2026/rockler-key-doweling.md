@@ -1,6 +1,6 @@
 ---
 title: Rockler Corner Key Doweling Jig
-description: 
+description: Several years ago, I purchased Rockler's Corner Key Doweling Jig but I never had an opportunity to use it for anything. I recently built a couple of drawers out of 1/2 inch maple plywood using a rabbet joint and I wanted an easy way to reinforce the glued joint. I decided to dig out the corner key doweling jig and give it a whirl. This is my review of the product.
 date: 2026-07-19
 isReview: True
 isTutorial: False
@@ -16,9 +16,9 @@ timestamp: 2026-07-19T21:14:05.962Z
 + Doesn't include a storage container you can use to store the device without disassembling it first.
 + Material should be more rigid or made out of metal, at least the clamping part
 
-I've always had an interest in different types of joinery and I think that spline joints are particularly interesting and appealing. Several years ago, I purchased Rockler's [Corner Key Doweling Jig](https://www.rockler.com/rockler-corner-key-doweling-jig){target="_blank"} but I never had an opportunity to use it for anything.
-
 ---
+
+I've always had an interest in different types of joinery and I think that spline joints are particularly interesting and appealing. Several years ago, I purchased Rockler's [Corner Key Doweling Jig](https://www.rockler.com/rockler-corner-key-doweling-jig){target="_blank"} but I never had an opportunity to use it for anything.
 
 I recently built a couple of drawers out of 1/2 inch maple plywood using a [rabbet joint](https://www.familyhandyman.com/article/rabbet-joints/){target="_blank"} and I wanted an easy way to reinforce the glued joint. I decided to dig out the corner key doweling jig and give it a whirl.
 
@@ -41,8 +41,8 @@ After you assemble the jig, more on this later, you basically clamp the jig acro
 </div>
 <div>
 <div>
-<img src="/images/2026/key-doweling-jig/key-doweling-jig-01.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/key-doweling-jig/key-doweling-jig-01.jpg" alt="Getting ready to drill a corner hole" class="image fit">
+<p class="caption">Getting ready to drill a corner hole</p>
 </div>
 </div>
 </div>
@@ -54,17 +54,52 @@ After you assemble the jig, more on this later, you basically clamp the jig acro
 </div>
 <div>
 <div>
-<img src="/images/2026/key-doweling-jig/key-doweling-jig-05.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/key-doweling-jig/key-doweling-jig-05.jpg" alt="Setting the drill depth" class="image fit">
+<p class="caption">Setting the drill depth</p>
 </div>
 </div>
 </div>
 
+## Jig Setup
 
-## Configuration
+Before you can use the jig, you have some setup to do. Rockler made some design and product decisions that pushes responsibility to the consumer (you) to make the product ready for use.
+
+The jig doesn't ship with any backer blocks, blocks of MDF the jig holds against the lower hole to keep the drill from blowing out the wood on the way out. With the backer block in place, it holds pressure against the wood at the exit, ensuring a clean hole. The jig requires this, but expects you to do all the work to create them (you'll need at least three of them to use all the available drill/hole diameters). From the jig manual:
+
+> Before using the jig, you must attach a 1/2" thick MDF backer board to the front face of the Clamping Block (1) section of the jig. It is recommended that you make a dedicated backer board for each of the three drilling diameters and switch the backer boards whenever you switch Guide Bushings. At a minimum, for each drilling diameter, you must unscrew the backer board, shift it slightly side to side to an undrilled section and reattach it to the Clamping Block. Drill the zero-clearance hole in the Clamping Block backer board before using the jig on your final workpiece.
+
+I don't know about you, but I have a pretty well equipped shop and I don't keep a lot of 1/2 inch MDF lying around. Amazon had some options, but the cheapest one was $31US. I ended up buying a 24" x 48" piece at [Home Depot](https://www.homedepot.com/p/ProWood-1-2-in-x-2-ft-x-4-ft-Medium-Density-Fiberboard-Project-Panel-109097/202093821){target="_blank"} for $28US.
+
+Notice this note in the instructions:
+
+> It is recommended that you make a dedicated backer board for each of the three drilling diameters and switch the backer boards whenever you switch Guide Bushings.
+
+Not only do you need one of these for each of the drilling diameters, if you drill using different wood thicknesses, you'll need one for each of those as well for each drill diameter. 
+
+Rockler doesn't provide you with any MDF blocks to use for this, so before you can use the jig you must purchase more MDF than you really need then cut a bunch of blocks. What Rockler should have done was included at least one block, but preferably three of them so you can be up and running without any delay **and** without making any additional purchases.
+
+Another big miss by Rockler is the alignment window. They instruct you to place a long line on a sample box, then:
+
+> Set the jig tight against the mitered corner so that the notch in the front of the Drilling Plate perfectly aligns with the mark on the test piece. Carefully clamp the jig in place, using the clamping areas on the Clamping Block and Main Plate. Slightly loosen the screws holding the acrylic hairline indicator in place and adjust the indicator so that it aligns perfectly with the mark on the test piece. Tighten the screws.
+
+Rather than design and manufacture the jig so that the alignment window aligns automatically and stays in place, they made it a lose fit then expect you to make sure its aligned properly before using it.
+
+<img src="/images/2026/key-doweling-jig/alignment-window.jpg" alt="Aligning the alignment window" class="image fit">
+<p class="caption">Aligning the alignment window</p>
+
+## Usage
+
+it would be better if Rockler included some stops so you don't have to mark up the wood.
+
+## Issues
 
 
-## Setup
+## Conclusion
+
+### Pros
+
+
+### Cons
 
 
 
