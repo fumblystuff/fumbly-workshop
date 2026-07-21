@@ -30,7 +30,6 @@ function captionedImageShortcode(imagePath, captionText) {
     }
     // append the caption to the captions array for the current page
     captions[page].push({ imagePath, captionText });
-    // console.table(captions[page]);
     const figureNumber = captions[page].length;
     return `<p class="${captionClass}"><strong>${captionLabel} ${figureNumber}: </strong>${captionText}</p>`;
 }
