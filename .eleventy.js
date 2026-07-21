@@ -49,7 +49,10 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
-	eleventyConfig.addPlugin(captionedImage);
+	eleventyConfig.addPlugin(captionedImage, {
+		captionLabel: "Image",
+		captionClass: "caption"
+	});
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 

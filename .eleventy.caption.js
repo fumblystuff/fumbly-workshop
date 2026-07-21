@@ -7,13 +7,55 @@
  * page. Using sequential numbers, of course.
  ********************************************************************/
 
-const PLUGIN_NAME = 'ImageCaptionShortcode';
+const DEFAULT_CAPTION_LABEL = "Figure";
+const DEFAULT_CAPTION_CLASS = "caption";
 
-function captionedImageShortcode(imagePath, captionText, captionClass) {
-    console.log(`[${PLUGIN_NAME}] "${imagePath}"`);
-    return `<p class="${captionClass}"><strong>Figure #:</strong> ${captionText}</p>`;
+const isDev = process.env.ELEVENTY_RUN_MODE === "serve" || process.env.ELEVENTY_RUN_MODE === "watch";
+
+const captions = [];
+
+var captionClass;
+var captionLabel;
+
+function captionedImageShortcode(imagePath, captionText) {
+    const SHORTCODE_NAME = 'ImageCaption';
+    console.log(`[${SHORTCODE_NAME}] "${imagePath}"`);
+    const page = this.page.url; // get the current page URL
+    // if we're in dev mode, just return generic text
+    if (isDev) return `<p class="${captionClass}"><strong>${captionLabel} #: </strong>${captionText}</p>`;
+    // does the page's array exist in the captions?
+    if (!captions[page]) {
+        // then make a new entry for it
+        captions[page] = [];
+    }
+    // append the caption to the captions array for the current page
+    captions[page].push({ imagePath, captionText });
+    // console.table(captions[page]);
+    const figureNumber = captions[page].length;
+    return `<p class="${captionClass}"><strong>${captionLabel} ${figureNumber}: </strong>${captionText}</p>`;
 }
 
-export default function (eleventyConfig) {
+function imageReferenceShortcode(imagePath) {
+    const SHORTCODE_NAME = 'ImageReference';
+    console.log(`[${SHORTCODE_NAME}] "${imagePath}"`);
+    const page = this.page.url; // get the current page URL
+    // if we're in dev mode, just return generic text
+    if (isDev) return `${captionLabel} #:`;
+    // Is the page in the captions array?
+    if (!captions[page]) {
+        // too early to reference images
+        return "Invalid Reference";
+    }
+    const figureNumber = captions[page].findIndex(image => image.imagePath === imagePath) + 1;
+    if (figureNumber === 0) return "Unable to find caption for this image.";
+    return `${captionLabel} ${figureNumber}`;
+}
+
+export default function (eleventyConfig, options) {
+
+    captionLabel = options?.captionLabel || DEFAULT_CAPTION_LABEL;
+    captionClass = options?.captionClass || DEFAULT_CAPTION_CLASS;
+
     eleventyConfig.addLiquidShortcode('captionedImage', captionedImageShortcode);
+    eleventyConfig.addLiquidShortcode('imageReference', imageReferenceShortcode);
 }
