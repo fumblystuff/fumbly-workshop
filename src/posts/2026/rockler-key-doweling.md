@@ -11,7 +11,7 @@ timestamp: 2026-07-19T21:14:05.962Z
 
 I've always had an interest in different types of joinery and I think that spline joints are particularly interesting and appealing. Several years ago, I purchased Rockler's [Corner Key Doweling Jig](https://www.rockler.com/rockler-corner-key-doweling-jig){target="_blank"} but I never had an opportunity to use it for anything.
 
-I recently built a couple of drawers out of 1/2 inch maple plywood using a [rabbet joint](https://www.familyhandyman.com/article/rabbet-joints/){target="_blank"} and I wanted an easy way to reinforce the glued joint. I decided to dig out the corner key doweling jig and give it a whirl.
+I recently built a couple of drawers out of 1/2 inch maple plywood using a [Rabbet joint](https://www.familyhandyman.com/article/rabbet-joints/){target="_blank"} and I wanted an easy way to reinforce the glued joint. I decided to dig out the corner key doweling jig and give it a whirl.
 
 {% sidebar "Kinda Disappointed" %}
 My overall assessment of this jig is that its a great idea and an interesting design, but I'm really disappointed in the implementation. It requires more setup than what I expect from a jig like this and the materials weren't sturdy enough to allow me to consistently cut solid joints using the jig. This is all explained below.
