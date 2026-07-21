@@ -52,10 +52,10 @@ function imageReferenceShortcode(imagePath) {
 }
 
 export default function (eleventyConfig, options) {
-
+    // populate our default options
     captionLabel = options?.captionLabel || DEFAULT_CAPTION_LABEL;
     captionClass = options?.captionClass || DEFAULT_CAPTION_CLASS;
-
+    // Add the shortcodes
     eleventyConfig.addLiquidShortcode('captionedImage', captionedImageShortcode);
     eleventyConfig.addLiquidShortcode('imageReference', imageReferenceShortcode);
 }
