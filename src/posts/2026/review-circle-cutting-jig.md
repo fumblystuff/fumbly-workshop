@@ -23,6 +23,8 @@ This post describes my experience using the Rockler Circle Cutting jig. Overall,
   </div>
 </div>
 
+{% captionedImage "/images/2026/circle-cutting-jig-00.jpg" "This is a Test" "caption" %}
+
 ## Rockler's Three Jig Options
 
 Rockler offers multiple circle cutting jigs:

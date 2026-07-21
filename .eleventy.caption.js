@@ -2,31 +2,18 @@
  * Image Caption shortcut
  * by John M. Wargo
  * Created July 21, 2026
+ * 
+ * This should automatically caption all of the image files on a 
+ * page. Using sequential numbers, of course.
  ********************************************************************/
 
 const PLUGIN_NAME = 'ImageCaptionShortcode';
 
-function imageCaptionShortcode(content, name) {
-    console.log(`[${PLUGIN_NAME}] "${name}"`);
-    return `<div>
-        <div class="pswp-gallery" id="gallery-${name}">
-            ${content}
-        </div>
-        <script type="module">
-            import PhotoSwipeLightbox from '/assets/js/photoswipe-lightbox.esm.min.js';
-            import PhotoSwipe from '/assets/js/photoswipe.esm.min.js';
-            const lightbox = new PhotoSwipeLightbox({
-                gallery: '#gallery-${name}',
-                children: 'a',
-                showHideAnimationType: 'zoom',
-                pswpModule: PhotoSwipe
-            });
-            lightbox.init();
-        </script>
-      </div>`
-        .replace(/(\r\n|\n|\r)/gm, "");
+function captionedImageShortcode(imagePath, captionText, captionClass) {
+    console.log(`[${PLUGIN_NAME}] "${imagePath}"`);
+    return `<p class="${captionClass}"><strong>Figure #:</strong> ${captionText}</p>`;
 }
 
 export default function (eleventyConfig) {
-    eleventyConfig.addLiquidShortcode('imageCaption', imageCaptionShortcode);
+    eleventyConfig.addLiquidShortcode('captionedImage', captionedImageShortcode);
 }

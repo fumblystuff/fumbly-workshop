@@ -7,6 +7,7 @@ import pluginDate from 'eleventy-plugin-date';
 import pluginRss from '@11ty/eleventy-plugin-rss';
 // My plugins
 import generateCategoryPages from 'eleventy-generate-category-pages';
+import captionedImage from './.eleventy.caption.js';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 // Transforms
 import htmlMinify from './transforms/transform-minify.js';
@@ -48,6 +49,7 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
+	eleventyConfig.addPlugin(captionedImage);
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 
