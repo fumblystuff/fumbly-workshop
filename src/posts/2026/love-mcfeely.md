@@ -71,7 +71,7 @@ With my last few orders, I noticed that they switched to much larger and thicker
 <div>
 <div>
 <img src="/images/2026/mcfeely/mcfeely-01.jpg" alt="My box of McFeely's screws" class="image fit">
-<p class="caption">My box of McFeely's screws</p>
+{% imageCaption "/images/2026/mcfeely/mcfeely-01.jpg" "My box of McFeely's screws" %}
 </div>
 </div>
 </div>
@@ -83,7 +83,7 @@ With my last few orders, I noticed that they switched to much larger and thicker
 <div>
 <div>
 <img src="/images/2026/mcfeely/mcfeely-02.jpg" alt="The new packaging" class="image fit">
-<p class="caption">The new packaging</p>
+{% imageCaption "/images/2026/mcfeely/mcfeely-02.jpg" "The new packaging" %}
 </div>
 </div>
 </div>
@@ -95,7 +95,7 @@ With my last few orders, I noticed that they switched to much larger and thicker
 <div>
 <div>
 <img src="/images/2026/mcfeely/mcfeely-03.jpg" alt="A half empty McFeely's screw box" class="image fit">
-<p class="caption">A half empty McFeely's screw box</p>
+{% imageCaption "/images/2026/mcfeely/mcfeely-03.jpg" "A half empty McFeely's screw box" %}
 </div>
 </div>
 </div>
@@ -108,7 +108,7 @@ With my last few orders, I noticed that they switched to much larger and thicker
 <div>
 <div>
 <img src="/images/2026/mcfeely/mcfeely-04.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+{% imageCaption "/images/2026/mcfeely/mcfeely-04.jpg" "A Torn McFeely's Screw Box" %}
 </div>
 </div>
 </div>

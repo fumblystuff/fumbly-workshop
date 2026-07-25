@@ -1,5 +1,6 @@
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
+import imageCaptionPlugin from 'eleventy-plugin-image-caption';
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
@@ -47,6 +48,7 @@ export default async function (eleventyConfig) {
 	});
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+	eleventyConfig.addPlugin(imageCaptionPlugin);
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);

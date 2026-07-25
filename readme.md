@@ -43,3 +43,8 @@ Source code project for https://fumblyworkshop.com
 - [ ] Photo Gallery
 - [ ] Stats page
 - [ ] Definitions page? Perhaps a shortcode for loading it?
+
+## Image Caption
+
+{% imageCaption "<image-file-path>" "<caption-text>" %}
+{% imageReference "<image-file-path>" %}

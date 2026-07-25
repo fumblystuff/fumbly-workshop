@@ -49,12 +49,20 @@
 		],
 		"description": "Text & Image Block"
 	},
-	"Caption": {
+	"ImageCaption": {
 		"scope": "markdown, liquid",
 		"prefix": "!caption",
 		"body": [
-			"<p class=\"caption\">Caption text</p>"
+			"{% imageCaption \"/images/2026/\" \"Caption Text\" %}"
 		],
 		"description": "Image Caption"
+	},
+	"ImageReference": {
+		"scope": "markdown, liquid",
+		"prefix": "!image-ref",
+		"body": [
+			"{% imageReference \"/images/2026/\" %}"
+		],
+		"description": "Image Reference"
 	}
 }
