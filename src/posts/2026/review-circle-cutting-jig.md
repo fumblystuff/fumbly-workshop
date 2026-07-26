@@ -18,7 +18,7 @@ This post describes my experience using the Rockler Circle Cutting jig. Overall,
   <div>
     <div>
       <img src="/images/2026/circle-cutting-jig-00.jpg" alt="Me with the completed thing"  class="image fit">
-      <p class="caption">Me with the completed thing</p>
+      {% imageCaption "/images/2026/circle-cutting-jig-00.jpg" "Me with the completed thing" %}
     </div>
   </div>
 </div>
@@ -44,7 +44,7 @@ The ellipse/circle cutting jigs are cool (and interesting) because they allow yo
   <div>
     <div>
       <img src="/images/2026/circle-cutting-jig-01.jpg" alt="Rockler Circle Cutting Jig right out of the packaging"  class="image fit">
-      <p class="caption">Rockler Circle Cutting Jig right out of the packaging</p>
+      {% imageCaption "/images/2026/circle-cutting-jig-01.jpg" "Rockler Circle Cutting Jig right out of the packaging" %}
     </div>
   </div>
 </div>
@@ -62,7 +62,7 @@ The jig comes with a t-track assembly that you use to set the center of the circ
   <div>
     <div>
       <img src="/images/2026/circle-cutting-jig-02.jpg" alt="Rockler Circle Cutting Jig center posts" class="image fit">
-      <p class="caption">Caption text</p>
+      {% imageCaption "/images/2026/circle-cutting-jig-02.jpg" "Rockler Circle Cutting Jig center posts" %}
     </div>
   </div>
 </div>
@@ -76,7 +76,7 @@ For our project, I set the t-track at 18 inches. and I drilled a small hole on t
   <div>
     <div>
       <img src="/images/2026/circle-cutting-jig-03.jpg" alt="Rockler Circle Cutting Jig center post inserted" class="image fit">
-      <p class="caption">Rockler Circle Cutting Jig center post inserted</p>
+      {% imageCaption "/images/2026/circle-cutting-jig-03.jpg" "Rockler Circle Cutting Jig center post inserted" %}
       </div>
   </div>
 </div>
@@ -99,8 +99,8 @@ The jig comes with three sets of pre-drilled holes that covers mounting many pop
   </div>
   <div>
     <div>
-      <img src="/images/2026/circle-cutting-jig-04.png" alt="Rockler Circle Cutting Jig marked for my router" class="image fit">
-      <p class="caption">Rockler Circle Cutting Jig marked for my router</p>
+      <img src="/images/2026/circle-cutting-jig-04.png" alt="Router Placement Instructions" class="image fit">
+      {% imageCaption "/images/2026/circle-cutting-jig-04.png" "Router Placement Instructions" %}
     </div>
   </div>
 </div>
@@ -112,7 +112,7 @@ The jig comes with three sets of pre-drilled holes that covers mounting many pop
   <div>
     <div>
       <img src="/images/2026/circle-cutting-jig-05.jpg" alt="Rockler Circle Cutting Jig marked for my router" class="image fit">
-      <p class="caption">Rockler Circle Cutting Jig marked for my router</p>
+      {% imageCaption "/images/2026/circle-cutting-jig-05.jpg" "Rockler Circle Cutting Jig marked for my router" %}
     </div>
   </div>
 </div>
