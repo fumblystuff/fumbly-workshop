@@ -24,21 +24,25 @@ YOu can find the 3D print files for this project on <a href="https://www.thingiv
 
 Here's what he came up with:
 
-<img src="/images/2025/magnetic-dust-port-00.jpg" alt="" />
+<img src="/images/2025/magnetic-dust-port-00.jpg" alt="The dust collector mounted on the router table" />
+{% imageCaption "/images/2025/magnetic-dust-port-00.jpg" "Mounted on a router table" %}
 
 Its a PLA dust port with a connector on the backside for the hose from my dust collector. The best part of it though is that it uses two of those rare earth magnets to hold the dust collection port to the cast iron top of my router table (and table saw).
 
 Those yellow and black parts connected to the dust port hold the rare earth magnets. When you twist the black knobs, the magnets lower to the base of the unit and make a magnetic connection to the iron tool top.
 
-<img src="/images/2025/magnetic-dust-port-01.jpg" alt="" />
+<img src="/images/2025/magnetic-dust-port-01.jpg" alt="An image of the dust collector face on" />
+{% imageCaption "/images/2025/magnetic-dust-port-01.jpg" "Dust collection port" %}
 
 Here's the underside of the magnet thingies; they sit flat on the table top, but when you twist the knobs, the rare earth magnets lower to make contact with those bottom plates. When that happens, it's locked to the table top and requires about 55 pounds of effort to move it. Enough strength to hold it in place while I cut something.
 
-<img src="/images/2025/magnetic-dust-port-02.jpg" alt="" />
+<img src="/images/2025/magnetic-dust-port-02.jpg" alt="An image of the bottom of the dust collection port" />
+{% imageCaption "/images/2025/magnetic-dust-port-02.jpg" "A bottom view" %}
 
 Here it is attached to the top of my router table. 
 
-<img src="/images/2025/magnetic-dust-port-03.jpg" alt="" />
+<img src="/images/2025/magnetic-dust-port-03.jpg" alt="another image of the dust collector mounted on a router table" />
+{% imageCaption "/images/2025/magnetic-dust-port-03.jpg" "Positioning the Dust Collector" %}
 
 To remove it, simply twist the knobs in the opposite direction and it disconnects from the table.
 

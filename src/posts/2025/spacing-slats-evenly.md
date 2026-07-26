@@ -23,11 +23,14 @@ I tried cutting smaller pieces of plywood, but they kept falling through the sla
 Remembering that I had a high end 3D printer upstairs in my office, I quickly came up with a solution. I crafted a set of T-shaped shims that solved my problem in a variety of ways.
 
 <img src="/images/2025/slat-spacers-01.jpg" alt="an image of a couple of simple t-shaped quarter inch plastic shims" />
+{% imageCaption "/images/2025/slat-spacers-01.jpg" "A pair of spacers" %}
 
 I made all of the sides 1/4 inches in width so I could insert them in any orientation and they'd still do the job. I made the top of the T an inch and a half wide so it would sit comfortably on top of the slats. I printed 4 of them so I could use them on both ends and on both sides of a slat. What you see in the image below is the spacers placed on the already assembled love seat, I forgot to take a picture during assembly.
 
 <img src="/images/2025/slat-spacers-02.jpg" alt="An image of the spacers in use on the assembled love seat" />
+{% imageCaption "/images/2025/slat-spacers-02.jpg" "The spacers separating slats" %}
 
 I created the spacers using [Tinkercad](https://www.tinkercad.com/){target="_blank"}, it's a very simple design, you can find the design at [Quarter Inch Spacer 2 ways](https://www.tinkercad.com/things/e6TVqKer0r2-quarter-inch-spacer-2-ways){target="_blank"}.
 
 <img src="/images/2025/slat-spacers-03.png" alt="An image of the design in the Tinkercad designer" />
+{% imageCaption "/images/2025/slat-spacers-03.jpg" "Tinkercad" %}
