@@ -33,7 +33,7 @@ After you assemble the jig, more on this later, you basically clamp the jig acro
 <div>
 <div>
 <img src="/images/2026/key-doweling-jig/key-doweling-jig-01.jpg" alt="Getting ready to drill a corner hole" class="image fit">
-<p class="caption">Getting ready to drill a corner hole</p>
+{% imageCaption "/images/2026/key-doweling-jig/key-doweling-jig-01.jpg" "Getting ready to drill a corner hole" %}
 </div>
 </div>
 </div>
@@ -46,7 +46,7 @@ After you assemble the jig, more on this later, you basically clamp the jig acro
 <div>
 <div>
 <img src="/images/2026/key-doweling-jig/key-doweling-jig-05.jpg" alt="Setting the drill depth" class="image fit">
-<p class="caption">Setting the drill depth</p>
+{% imageCaption "/images/2026/key-doweling-jig/key-doweling-jig-05.jpg" "Setting the drill depth" %}
 </div>
 </div>
 </div>
@@ -76,7 +76,7 @@ Another big miss by Rockler is the alignment window. They instruct you to place 
 Rather than design and manufacture the jig so that the alignment window aligns automatically and stays in place, they made it a lose fit then expect you to make sure its aligned properly before using it.
 
 <img src="/images/2026/key-doweling-jig/alignment-window.jpg" alt="Aligning the alignment window" class="image fit">
-<p class="caption">Aligning the alignment window</p>
+{% imageCaption "/images/2026/key-doweling-jig/alignment-window.jpg" "Aligning the alignment window" %}
 
 ## Usage
 
@@ -90,7 +90,7 @@ To use the jig, you set the depth of the wood you're drilling through, select th
 <div>
 <div>
 <img src="/images/2026/key-doweling-jig/key-doweling-jig-02.jpg" alt="Marking the box for drilling" class="image fit">
-<p class="caption">Marking the box for drilling</p>
+{% imageCaption "/images/2026/key-doweling-jig/key-doweling-jig-02.jpg" "Marking the box for drilling" %}
 </div>
 </div>
 </div>
@@ -102,8 +102,8 @@ To use the jig, you set the depth of the wood you're drilling through, select th
 </div>
 <div>
 <div>
-<img src="/images/2026/key-doweling-jig/key-doweling-jig-04.jpg" alt="Clamping the tig to the box" class="image fit">
-<p class="caption">Clamping the tig to the box</p>
+<img src="/images/2026/key-doweling-jig/key-doweling-jig-04.jpg" alt="Clamping the jig to the box" class="image fit">
+{% imageCaption "/images/2026/key-doweling-jig/key-doweling-jig-04.jpg" "Clamping the jig to the box" %}
 </div>
 </div>
 </div>
@@ -116,7 +116,7 @@ To use the jig, you set the depth of the wood you're drilling through, select th
 <div>
 <div>
 <img src="/images/2026/key-doweling-jig/key-doweling-jig-06.jpg" alt="Drilled holes" class="image fit">
-<p class="caption">Drilled holes</p>
+{% imageCaption "/images/2026/key-doweling-jig/key-doweling-jig-06.jpg" "Drilled Holes" %}
 </div>
 </div>
 </div>
@@ -129,7 +129,7 @@ To use the jig, you set the depth of the wood you're drilling through, select th
 <div>
 <div>
 <img src="/images/2026/key-doweling-jig/key-doweling-jig-08.jpg" alt="Inserting a dowel" class="image fit">
-<p class="caption">Inserting a dowel</p>
+{% imageCaption "/images/2026/key-doweling-jig/key-doweling-jig-08.jpg" "Inserting a dowel" %}
 </div>
 </div>
 </div>
@@ -141,7 +141,7 @@ To use the jig, you set the depth of the wood you're drilling through, select th
 <div>
 <div>
 <img src="/images/2026/key-doweling-jig/key-doweling-jig-07.jpg" alt="A dowel poked through a hole" class="image fit">
-<p class="caption">A dowel poked through a hole</p>
+{% imageCaption "/images/2026/key-doweling-jig/key-doweling-jig-07.jpg" "A dowel poked through a hole" %}
 </div>
 </div>
 </div>
@@ -154,8 +154,8 @@ To use the jig, you set the depth of the wood you're drilling through, select th
 </div>
 <div>
 <div>
-<img src="/images/2026/key-doweling-jig/key-doweling-jig-09.jpg" alt="" class="image fit">
-<p class="caption">Caption text</p>
+<img src="/images/2026/key-doweling-jig/key-doweling-jig-09.jpg" alt="Cutting the dowel off flush" class="image fit">
+{% imageCaption "/images/2026/key-doweling-jig/key-doweling-jig-09.jpg" "Cutting the dowel off flush" %}
 </div>
 </div>
 </div>

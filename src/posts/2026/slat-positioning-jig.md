@@ -17,24 +17,29 @@ isTutorial: false
 I recently build a love seat/bench for my driveway using plans I purchased from Rockler. I made the bench out of Cypress wood so I wouldn't have to finish it, it would age naturally in the elements. Here's the bench:
 
 ![An image of the completed bench](/images/2026/slat-positioning-jig-01.jpg)
+{% imageCaption "/images/2026/slat-positioning-jig-01.jpg" "An image of the completed bench" %}
 
 In [Spacing Slats Evenly](/posts/2025/woodworking-spacing-slats-evenly/){target="_blank"} I described some simple spacers I designed to help me align the seat slats evenly. When it came to assembling the bench back, I needed something else to hold the slats in place vertically as I screwed them into the side rails. I decided to create a special set of jigs I could use to do this, here they are:
 
 ![an image of the jigs](/images/2026/slat-positioning-jig-02.jpg)
+{% imageCaption "/images/2026/slat-positioning-jig-02.jpg" "The jig" %}
 
 The jigs allowed me to hold the vertical slat (that little short slot on the outside of the jigs), then clamp them in place against the bench. This freed up my hands to screw the slats in place. 
 
 I call the design [Slat Positioning Jigs](https://www.tinkercad.com/things/118rwI8c5K8-slat-positioning-jigs){target="_blank"} and the following image shows them in [Tinker CAD](https://www.tinkercad.com/){target="_blank"}. 
 
 ![Tinker CAD editing the jigs](/images/2026/slat-positioning-jig-02.png)
+{% imageCaption "/images/2026/slat-positioning-jig-02.png" "Tinker CAD editing the jigs" %}
 
 As you can see in the following figure, the jigs (one for each side of the bench) hold the slat in place; I used a spacer to set the distance between the slate. I set the slat in the slot on the jig, then clamped it in place; setting the distance from the front of the side rails (as showm om the figure). 
 
 ![an image of a jig holding a slat in place](/images/2026/slat-positioning-jig-03.jpg)
+{% imageCaption "/images/2026/slat-positioning-jig-03.jpg" "The jig holding a slat in place" %}
 
 This image shows the bench from the back, see how the clamps use the flat section of the jig as a clamping surface.
 
 ![an image of a jig holding a slat in place from the back of the bench](/images/2026/slat-positioning-jig-04.jpg)
+{% imageCaption "/images/2026/slat-positioning-jig-04.jpg" "Holding a slat in place" %}
 
 With this in place on both sides of the bench, I had two hands free to screw the pocket hole screws in the holes shown in the figure. 
 
