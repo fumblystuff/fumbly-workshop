@@ -71,7 +71,7 @@ With my last few orders, I noticed that they switched to much larger and thicker
 <div>
 <div>
 <img src="/images/2026/mcfeely/mcfeely-01.jpg" alt="My box of McFeely's screws" class="image fit">
-{% imageCaption "/images/2026/mcfeely/mcfeely-01.jpg" "My box of McFeely's screws" %}
+{% imageCaption "mcfeely-01.jpg" "My box of McFeely's screws" %}
 </div>
 </div>
 </div>
@@ -83,7 +83,7 @@ With my last few orders, I noticed that they switched to much larger and thicker
 <div>
 <div>
 <img src="/images/2026/mcfeely/mcfeely-02.jpg" alt="The new packaging" class="image fit">
-{% imageCaption "/images/2026/mcfeely/mcfeely-02.jpg" "The new packaging" %}
+{% imageCaption "mcfeely-02.jpg" "The new packaging" %}
 </div>
 </div>
 </div>
@@ -95,7 +95,7 @@ With my last few orders, I noticed that they switched to much larger and thicker
 <div>
 <div>
 <img src="/images/2026/mcfeely/mcfeely-03.jpg" alt="A half empty McFeely's screw box" class="image fit">
-{% imageCaption "/images/2026/mcfeely/mcfeely-03.jpg" "A half empty McFeely's screw box" %}
+{% imageCaption "mcfeely-03.jpg" "A half empty McFeely's screw box" %}
 </div>
 </div>
 </div>
@@ -108,7 +108,30 @@ With my last few orders, I noticed that they switched to much larger and thicker
 <div>
 <div>
 <img src="/images/2026/mcfeely/mcfeely-04.jpg" alt="" class="image fit">
-{% imageCaption "/images/2026/mcfeely/mcfeely-04.jpg" "A Torn McFeely's Screw Box" %}
+{% imageCaption "mcfeely-04.jpg" "A Torn McFeely's Screw Box" %}
 </div>
 </div>
 </div>
+
+## Postscript
+
+The reason I wrote this post was because I ran out of some screws and needed to place an order with the folks at McFeely's. That started me thinking of how much I liked doing business with them and the rest you know. 
+
+When I received my order, I was surprised and happy to see that they ditched those heavy, cumbersome boxes I complained about earlier in the post. They went back to simple thick cardboard with no extra closure that can tear like I showed in {% imageReference "mcfeely-04.jpg" %}, here's a pic of the new box. Much better.
+
+![The new and improved box](/images/2026/mcfeely/mcfeely-05.jpg)
+{% imageCaption "mcfeely-05.jpg" "The new and improved box" %}
+
+I did figure out why they implemented that minimum order nonsense they have in place today, because they, for some bizarre reason, use a ridiculous amount of packing in the box, see below.
+
+![Packaging overkill](/images/2026/mcfeely/mcfeely-06.jpg)
+{% imageCaption "mcfeely-06.jpg" "Packaging overkill" %}
+
+Its big, thick and heavy and, I assume, dramatically increases the shipping cost. 
+
+Take a look inside, see how small the boxes of screws are? Those two boxes of screws are only a small portion of the weight of the packaging.
+
+![More packaging overkill](/images/2026/mcfeely/mcfeely-07.jpg)
+{% imageCaption "mcfeely-07.jpg" "More packaging overkill" %}
+
+They could have used a much smaller shipping box with just a few sheets of crumpled paper to protect the product and saved themselves, and me, increased shipping cost. This just doesn't make any sense to me. There's just no reason to increase the weight of a package multiple times (3x? 4x? 5x?) just to send me a couple of small boxes of screws.  I hope they fix this.
