@@ -16,7 +16,6 @@ table td {
 picture .image.fit {
   max-width: 100%;
   height: auto;
-  /* height: 100%; */
 }
 
 picture img[width] {
@@ -117,7 +116,7 @@ details ol {
   What it Means (WIM) block
  *************************************/
 
- div.wim {
+div.wim {
   padding: 1.5rem 1.5rem 1.8rem 1.5rem;
   margin: 1.5rem 4rem 1.6rem 1.5rem;
   background: #f5f5f5;
