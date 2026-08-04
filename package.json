@@ -33,6 +33,8 @@
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-image-caption": "^0.0.1",
     "eleventy-plugin-markdown-page-links": "^0.0.17",
+    "eleventy-plugin-post-stats": "^0.2.13",
+    "generate-build-info": "^0.0.3",
     "html-minifier": "^4.0.0",
     "markdown-it": "^14.1.0",
     "markdown-it-attrs": "^4.3.1",

@@ -9,6 +9,7 @@ import pluginRss from '@11ty/eleventy-plugin-rss';
 // My plugins
 import generateCategoryPages from 'eleventy-generate-category-pages';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
+import pluginStats from 'eleventy-plugin-post-stats';
 // Transforms
 import htmlMinify from './transforms/transform-minify.js';
 import htmlPrettify from './transforms/transform-prettify.js';
@@ -52,6 +53,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(pluginStats);
 
 	// ==========================
 	// image plugin
@@ -97,6 +99,14 @@ export default async function (eleventyConfig) {
 		return collectionAPI.getAll()
 			.filter((item) => item.data.isReview == true)
 			.sort(sortFunction);
+	});
+
+	eleventyConfig.addFilter('commaize', function (num, locale = 'en-us') {
+		if (isNaN(num)) {
+			return `Error: ${num} is not a number`;
+		} else {
+			return num.toLocaleString(locale);
+		}
 	});
 
 	eleventyConfig.addFilter('dateOnly', function (dateVal, locale = 'en-us') {
