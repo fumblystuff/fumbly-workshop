@@ -64,7 +64,7 @@ export default async function (eleventyConfig) {
 		// optional, output image formats
 		formats: ['jpg', 'webp'],
 		// optional, output image widths
-		widths: ['auto', 400, 800, 1024],
+		widths: ['auto', 400, 800],
 		// optional, attributes assigned on <img> override these values.
 		defaultAttributes: {
 			loading: 'lazy',
