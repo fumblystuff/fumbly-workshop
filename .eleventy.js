@@ -68,8 +68,9 @@ export default async function (eleventyConfig) {
 		// optional, attributes assigned on <img> override these values.
 		defaultAttributes: {
 			loading: 'lazy',
-			decoding: 'async',
-			class: 'image fit'
+			decoding: 'async'
+			// ,
+			// class: 'image fit'
 		}
 	});
 
