@@ -22,7 +22,12 @@ siteTitle: The Fumbly Workshop
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="/assets/css/main.css" />
   <link rel="stylesheet" href="/assets/css/scott.css" />
+  {%- if page.url startswith '/posts'  %}
+    <link rel="stylesheet" href="/assets/css/photoswipe.css">
+  {%- endif %}
+	<!-- Icons -->
   {% include 'icons.html' %}
+  <!-- Google Analytics -->
   {% include 'google-analytics.html' %}
 </head>
 

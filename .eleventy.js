@@ -10,6 +10,8 @@ import pluginRss from '@11ty/eleventy-plugin-rss';
 import generateCategoryPages from 'eleventy-generate-category-pages';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 import pluginStats from 'eleventy-plugin-post-stats';
+// Local plugins
+import pluginGallery from "./.gallery.js";
 // Transforms
 import htmlMinify from './transforms/transform-minify.js';
 import htmlPrettify from './transforms/transform-prettify.js';
@@ -52,6 +54,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(imageCaptionPlugin);
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(pluginDate);
+	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginStats);
 

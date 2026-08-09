@@ -13,6 +13,16 @@
 		],
 		"description": "Anchor Link with Target"
 	},
+	"Gallery": {
+		"scope": "markdown, liquid",
+		"prefix": "!gallery",
+		"body": [
+			"{% gallery \"\" %}",
+			"{% galleryImage \"src/images/2026/\", \"\" %}",
+			"{% endgallery %}"
+		],
+		"description": "Image Gallery"
+	},
 	"Image": {
 		"scope": "markdown, liquid",
 		"prefix": "!img",
