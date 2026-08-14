@@ -22,11 +22,12 @@ Source code project for https://fumblyworkshop.com
 - [x] Favicon
 - [x] Manifest file
 - [x] Fix scaling of images, should never happen
+- [x] Algolia Index
+- [x] 404 page
+- [ ] Search Site (make your own form instead of Ray's)
 - [ ] Thumbnail image for article. Assigned per post or use category thumbnail
 - [ ] Scanned photos of dad's shop on About page
 - [ ] My workshop page content
-- [ ] Algolia Index
-- [ ] Search Site (make your own form instead of Ray's)
 - [ ] Tutorials page
 
 **Fast Follows**
