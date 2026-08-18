@@ -2,8 +2,8 @@
 title: Storing Rockler Snap-Lock Insert Rings
 description: 
 date: 2026-08-03
-isReview: 
-isTutorial: 
+isReview: false
+isTutorial: false
 categories: 
   - Router
 timestamp: 2026-08-03T22:19:09.397Z

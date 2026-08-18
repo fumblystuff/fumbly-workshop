@@ -24,15 +24,15 @@ Source code project for https://fumblyworkshop.com
 - [x] Fix scaling of images, should never happen
 - [x] Algolia Index
 - [x] 404 page
+- [x] Reviews
+- [ ] Tutorials page(s)
 - [ ] Search Site (make your own form instead of Ray's)
-- [ ] Thumbnail image for article. Assigned per post or use category thumbnail
 - [ ] Scanned photos of dad's shop on About page
 - [ ] My workshop page content
-- [ ] Tutorials page
 
 **Fast Follows**
 
-- [ ] Reviews
+- [ ] Thumbnail image for article. Assigned per post or use category thumbnail
 - [ ] Products
 - [ ] All for searching specific content types (review, tutorial, post)
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)

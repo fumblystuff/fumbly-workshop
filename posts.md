@@ -1,12 +1,12 @@
 # Posts
 
-- [x] McFeely's Addendum
-- [ ] New corner jig
+- [ ] Make smaller cuts on the router table
 - [ ] Long drawer pull post, how to mount consistently
+- [ ] Chamfering 
+- [ ] Rabet joint
+- [ ] New corner jig
 - [ ] Infinity bit fiasco
 - [ ] Write a series of posts about joining 1/2 inch plywood
-- [ ] Rabet joint
 - [ ] Done with Ryobi Power Tools
-- [ ] Chamfering 
 - [ ] 
 - [ ] 

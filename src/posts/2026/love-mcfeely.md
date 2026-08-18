@@ -2,8 +2,8 @@
 title: Why I Love McFeely's
 description: I purchased a lot of screws (and other stuff) from McFeely's over the years and I was thinking the other day about how great their customer experience is. I decided to write a post about it.
 date: 2026-07-21
-isReview: 
-isTutorial: 
+isReview: false
+isTutorial: false
 categories: 
   - Supplier
 timestamp: 2026-07-21T22:04:28.855Z
