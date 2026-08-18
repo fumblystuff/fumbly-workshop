@@ -104,6 +104,17 @@ export default async function (eleventyConfig) {
 			.sort(sortFunction);
 	});
 
+		// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
+	// Remove <code>.*</code>, remove HTML, then with plain text, limit to 5k chars
+	eleventyConfig.addFilter('algExcerpt', function (text) {
+		//first remove code
+		text = text.replace(/<code class="language-.*?">.*?<\/code>/sg, '');
+		//now remove html tags
+		text = text.replace(/<.*?>/g, '');
+		//now limit to 5k
+		return text.substring(0, 5000);
+	});
+
 	eleventyConfig.addFilter('commaize', function (num, locale = 'en-us') {
 		if (isNaN(num)) {
 			return `Error: ${num} is not a number`;
