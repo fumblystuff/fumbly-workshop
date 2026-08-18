@@ -11,7 +11,7 @@ import generateCategoryPages from 'eleventy-generate-category-pages';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 import pluginStats from 'eleventy-plugin-post-stats';
 // Local plugins
-import pluginGallery from "./.gallery.js";
+import pluginGallery from "./.eleventy.gallery.js";
 // Transforms
 import htmlMinify from './transforms/transform-minify.js';
 import htmlPrettify from './transforms/transform-prettify.js';

@@ -37,7 +37,7 @@ permalink: "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0
       {% endif %}
       <br/>
       {% if post.data.description %}
-        {% include 'generated.html' %}
+        {% include 'description.html' %}
       {% else %}
         {% excerpt post %}
       {% endif %}

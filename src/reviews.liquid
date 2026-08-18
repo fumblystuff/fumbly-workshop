@@ -12,6 +12,8 @@ pagination:
   alias: reviews
   reverse: true 
 ---
+
+I have a lot of tools in my shop, both handheld and power tools. I also have a lot of jigs I've purchased to make specific woodworking tasks easier. I generally have an opinion about each of them and, as I pick up new ones or dig out an existing one, I'll share my views (both praise and complaints) for many of them.
   
 {% include 'ai-disclaimer.html' %}
 {% include 'pagination-count.html' %}
@@ -36,8 +38,8 @@ pagination:
         {%- endfor %}
       <br/>
       {%- endif %}
-      {%- if review.description %}
-        {% include 'generated.html' %}
+      {%- if review.data.description %}
+        {% include 'description.html' %}
       {% else %}
         {% excerpt review %}
       {% endif %}</li>

@@ -13,6 +13,8 @@ pagination:
   reverse: true 
 ---
 
+Periodically, I'll make something in or for my workshop that I think others will be interested in.  I'll publish a tutorial here so you have the information you need to make it yourself.
+
 {% include 'ai-disclaimer.html' %}
 {% include 'pagination-count.html' %}
 
@@ -37,7 +39,7 @@ pagination:
         <br/>
         {%- endif %}
       {%- if tutorial.data.description %}
-        {% include 'generated.html' %}
+        {% include 'description.html' %}
       {% else %}
         {% excerpt tutorial %}
       {% endif %}</li>

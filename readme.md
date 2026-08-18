@@ -25,7 +25,7 @@ Source code project for https://fumblyworkshop.com
 - [x] Algolia Index
 - [x] 404 page
 - [x] Reviews
-- [ ] Tutorials page(s)
+- [x] Tutorials page(s)
 - [ ] Search Site (make your own form instead of Ray's)
 - [ ] Scanned photos of dad's shop on About page
 - [ ] My workshop page content
@@ -49,3 +49,7 @@ Source code project for https://fumblyworkshop.com
 
 {% imageCaption "<image-file-path>" "<caption-text>" %}
 {% imageReference "<image-file-path>" %}
+
+## Home Page Images
+
+519 x 628

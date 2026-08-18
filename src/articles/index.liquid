@@ -35,7 +35,7 @@ pagination:
         {%- endfor %}
       {% endif %}</strong><br/>
       {%- if post.data.description %}
-        {% include 'generated.html' %}
+        {% include 'description.html' %}
       {% else %}
         {% excerpt post %}
       {% endif %}</li>

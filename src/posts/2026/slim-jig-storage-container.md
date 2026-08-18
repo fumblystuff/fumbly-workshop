@@ -3,7 +3,7 @@ title: Building a Slim Jig Storage Container
 description: In my Rockler Circle Cutting Jig post, I explained that even through I liked the jig, I was disappointed that Rockler built the packaging in such a way that once you took the jig out of the packaging, you couldn't put any of it back. Customers had no way to store the jig along with its associated parts. This post describes how to make the storage case I created to store everything together.
 date: 2026-07-18
 isReview: false
-isTutorial: false
+isTutorial: true
 categories: 
   - Projects
 timestamp: 2026-07-18T21:37:33.907Z
