@@ -51,8 +51,8 @@
 			"</div>",
 			"<div>",
 			"<div>",
-			"<img src=\"\" alt=\"\" class=\"image fit\">",
-			"<p class=\"caption\">Caption text</p>",
+			"<img src=\"\" alt=\"Caption Text\" class=\"image fit\">",
+			"{% imageCaption \"\" \"Caption Text\" %}",
 			"</div>",
 			"</div>",
 			"</div>"
