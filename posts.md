@@ -1,7 +1,5 @@
 # Posts
 
-- [x] Make smaller cuts on the router table
-- [x] Chamfering 
 - [ ] Long drawer pull post, how to mount consistently
 - [ ] Rabet joint
 - [ ] New corner jig
