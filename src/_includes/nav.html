@@ -2,6 +2,11 @@
 
 <nav id="nav">
   <ul>
+    <li>
+      <a href="{{ '/' | htmlBaseUrl }}search/">
+        <i class="icon solid fa-search"></i>
+      </a>
+    </li>
     {%- for entry in navPages %}
     <li {%- if entry.url==page.url %} class="current"{%- endif %}>
       <a href="{{ entry.url }}" {%- if entry.children.length > 0 %} class="icon solid fa-angle-down"{%- endif %} >{{ entry.title }}</a>

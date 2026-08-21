@@ -6,8 +6,6 @@ Source code project for https://fumblyworkshop.com
 
 ## Tasks 
 
-**Critical for GA**
-
 - [x] Videos Page
 - [x] Home Page image attribution
 - [x] Fix styling around the PageLinks section on Posts
@@ -25,24 +23,20 @@ Source code project for https://fumblyworkshop.com
 - [x] Algolia Index
 - [x] 404 page
 - [x] Reviews
+- [x] Photo Gallery
+- [x] Stats page
 - [x] Tutorials page(s)
 - [ ] Search Site (make your own form instead of Ray's)
+- [ ] Most Popular Articles
 - [ ] Scanned photos of dad's shop on About page
 - [ ] My workshop page content
-
-**Fast Follows**
-
 - [ ] Thumbnail image for article. Assigned per post or use category thumbnail
 - [ ] Products
-- [ ] All for searching specific content types (review, tutorial, post)
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
 - [ ] Enable home page buttons
 - [ ] Highlight Articles submenu with `current` class
-- [ ] Most Popular Articles
 - [ ] Newsletter sign-up
 - [ ] Newsletter (https://buttondown.com/)
-- [ ] Photo Gallery
-- [ ] Stats page
 - [ ] Definitions page? Perhaps a shortcode for loading it?
 
 ## Image Caption

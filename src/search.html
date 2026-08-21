@@ -1,0 +1,17 @@
+---
+layout: generic
+title: Search
+excludeFromSearch: true
+---
+
+<section class="main">
+  <form class="search" onsubmit="doSearch(event)">
+    <input type="text" id="queryInput" placeholder="Search..." /><br />
+    <a class="button small" onclick="doSearch(event)">Search</a>
+  </form>
+  <hr class="major" />
+  <div id="searchResults"></div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@5/dist/lite/builds/browser.umd.js"></script>
+<script src="/assets/js/search-page.js"></script>
