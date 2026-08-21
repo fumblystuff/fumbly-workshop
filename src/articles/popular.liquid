@@ -1,0 +1,18 @@
+---
+layout: generic
+title: Most Popular Articles
+eleventyNavigation:
+  key: Most Popular
+  parent: Articles
+  order: 3
+---
+
+<p>This page lists the top {{ topPosts.length }} articles on the site by popularity according to Google Analytics.</p>
+
+<ol>
+  {% for post in topPosts %}
+  <li>
+    <a href="{{post.url}}" style="cursor: pointer">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ol>

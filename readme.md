@@ -26,14 +26,14 @@ Source code project for https://fumblyworkshop.com
 - [x] Photo Gallery
 - [x] Stats page
 - [x] Tutorials page(s)
-- [ ] Search Site (make your own form instead of Ray's)
-- [ ] Most Popular Articles
+- [X] Search Site
+- [x] Most Popular Articles
+- [ ] Breadcrumbs
 - [ ] Scanned photos of dad's shop on About page
 - [ ] My workshop page content
 - [ ] Thumbnail image for article. Assigned per post or use category thumbnail
 - [ ] Products
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
-- [ ] Enable home page buttons
 - [ ] Highlight Articles submenu with `current` class
 - [ ] Newsletter sign-up
 - [ ] Newsletter (https://buttondown.com/)
