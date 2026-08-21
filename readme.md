@@ -28,15 +28,14 @@ Source code project for https://fumblyworkshop.com
 - [x] Tutorials page(s)
 - [X] Search Site
 - [x] Most Popular Articles
+- [ ] Highlight Articles submenu with `current` class
 - [ ] Breadcrumbs
 - [ ] Scanned photos of dad's shop on About page
 - [ ] My workshop page content
-- [ ] Thumbnail image for article. Assigned per post or use category thumbnail
-- [ ] Products
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
-- [ ] Highlight Articles submenu with `current` class
 - [ ] Newsletter sign-up
 - [ ] Newsletter (https://buttondown.com/)
+- [ ] Products
 - [ ] Definitions page? Perhaps a shortcode for loading it?
 
 ## Image Caption
