@@ -36,7 +36,6 @@ Source code project for https://fumblyworkshop.com
 - [ ] Newsletter sign-up
 - [ ] Newsletter (https://buttondown.com/)
 - [ ] Products
-- [ ] Definitions page? Perhaps a shortcode for loading it?
 
 ## Image Caption
 
