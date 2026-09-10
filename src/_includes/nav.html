@@ -8,18 +8,20 @@
       </a>
     </li>
     {%- for entry in navPages %}
-    <li {%- if entry.url==page.url %} class="current"{%- endif %}>
-      <a href="{{ entry.url }}" {%- if entry.children.length > 0 %} class="icon solid fa-angle-down"{%- endif %} >{{ entry.title }}</a>
-      {%- if entry.children.length > 0 %}
-      <ul>
-        {%- for child in entry.children %}
-        <li>
-          <a href="{{ child.url }}">{{ child.title }}</a>
-        </li>
-        {%- endfor %}
-      </ul>
-      {%- endif %}
-    </li>
+      {% assign menuSegments = entry.url | split: '/' %}
+      {% assign pageSegments = page.url | split: '/' %}
+      <li {%- if menuSegments[1] == pageSegments[1] %} class="current"{%- endif %}>
+        <a href="{{ entry.url }}" {%- if entry.children.length > 0 %} class="icon solid fa-angle-down"{%- endif %} >{{ entry.title }}</a>
+        {%- if entry.children.length > 0 %}
+        <ul>
+          {%- for child in entry.children %}
+          <li>
+            <a href="{{ child.url }}">{{ child.title }}</a>
+          </li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+      </li>
     {%- endfor %}
   </ul>
 </nav>

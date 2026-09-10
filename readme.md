@@ -28,7 +28,7 @@ Source code project for https://fumblyworkshop.com
 - [x] Tutorials page(s)
 - [X] Search Site
 - [x] Most Popular Articles
-- [ ] Highlight Articles submenu with `current` class
+- [x] Highlight Articles submenu with `current` class
 - [ ] Breadcrumbs
 - [ ] Scanned photos of dad's shop on About page
 - [ ] My workshop page content
