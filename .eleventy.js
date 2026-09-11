@@ -12,6 +12,8 @@ import pageLinks from 'eleventy-plugin-markdown-page-links';
 import pluginStats from 'eleventy-plugin-post-stats';
 // Local plugins
 import pluginGallery from "./.eleventy.gallery.js";
+import pluginBreadcrumbs from "./.eleventy.breadcrumbs.js";
+
 // Transforms
 import htmlMinify from './transforms/transform-minify.js';
 import htmlPrettify from './transforms/transform-prettify.js';
@@ -57,6 +59,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginStats);
+	eleventyConfig.addPlugin(pluginBreadcrumbs);
 
 	// ==========================
 	// image plugin
