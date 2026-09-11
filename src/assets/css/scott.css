@@ -22,6 +22,11 @@ picture img[width] {
   width: auto;
 }
 
+.breadcrumb {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
 /* https://discord.com/channels/741017160297611315/1533953028325904685 */
 /* picture {
   width: 100%;
