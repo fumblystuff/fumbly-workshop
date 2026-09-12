@@ -46,8 +46,21 @@ p {
   padding: 0 4rem 3rem 4rem;
 }
 
-#wrapper>.main>.inner.style2>.image.main:first-child {
+/* #wrapper>.main>.inner.style2>.image.main:first-child {
   top: -1.5rem;
+} */
+
+#wrapper>.main>.inner.style2>.image.main:first-child {
+		    top: -1.5rem;
+		    width: 100%;
+		    left: 0;
+		    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 980px) {
+    #wrapper > .main > .inner.style2 > .image.main:first-child {
+           height: 20rem;
+    }
 }
 
 ul.posts {
