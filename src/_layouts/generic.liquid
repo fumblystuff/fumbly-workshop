@@ -13,7 +13,7 @@ layout: base
   </header>
   <div class="inner style2">
     {%- if headerImage != blank %}
-    <div class="image main" data-position="center"><img src="{{ headerImage }}" alt="Header image" /></div>
+    <div class="image main" data-position="center"><img src="{{ headerImage }}" alt="{{ headerDescription }}" /></div>
     {%- endif %}
     {% breadcrumbs %}
     {{ content }}

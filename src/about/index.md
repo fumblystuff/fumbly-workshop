@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 9
 ---
 
-This is my workbench (above). I'm a tech guy, but I'm also a burgeoning woodworker. In 2009, I started my personal blog at [johnwargo.com](https://johnwargo.com) and published 603 posts over the years (as I write this article). This blog is all about woodworking and my woodworking projects.
+This is my workbench (above). I'm a tech guy, but I'm also a burgeoning woodworker. In 2009, I started my personal blog at [johnwargo.com](https://johnwargo.com) and published more than 600 posts over the years (as I write this article). This blog is all about woodworking and my woodworking projects.
 
 ## It all started with my father
 
