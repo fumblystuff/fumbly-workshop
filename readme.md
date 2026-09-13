@@ -30,7 +30,7 @@ Source code project for https://fumblyworkshop.com
 - [x] Most Popular Articles
 - [x] Highlight Articles submenu with `current` class
 - [x] Breadcrumbs
-- [ ] Scanned photos of dad's shop on About page
+- [x] Scanned photos of dad's shop on About page
 - [ ] My workshop page content
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
 - [ ] Newsletter sign-up
