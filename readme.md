@@ -35,7 +35,6 @@ Source code project for https://fumblyworkshop.com
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
 - [ ] Newsletter sign-up
 - [ ] Newsletter (https://buttondown.com/)
-- [ ] Products
 
 ## Image Caption
 

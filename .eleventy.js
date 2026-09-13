@@ -107,7 +107,7 @@ export default async function (eleventyConfig) {
 			.sort(sortFunction);
 	});
 
-		// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
+	// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
 	// Remove <code>.*</code>, remove HTML, then with plain text, limit to 5k chars
 	eleventyConfig.addFilter('algExcerpt', function (text) {
 		//first remove code
@@ -153,10 +153,6 @@ export default async function (eleventyConfig) {
 		return theDate.toLocaleString(locale, options);
 	});
 
-	eleventyConfig.addShortcode('GetKeywords', categories => {
-		return categories.join(', ');
-	});
-
 	eleventyConfig.addPairedShortcode('sidebar', function (content, title = 'What It Means') {
 		// What it means (WIM) block
 		var paragraphs = content.split(/(?:\r?\n)+/);
@@ -168,6 +164,10 @@ export default async function (eleventyConfig) {
 		});
 		rc += '</div>';
 		return rc;
+	});
+
+	eleventyConfig.addShortcode('GetKeywords', categories => {
+		return categories.join(', ');
 	});
 
 	// From ray camden's blog, first paragraph as excerpt
