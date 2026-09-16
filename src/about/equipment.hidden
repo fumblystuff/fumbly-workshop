@@ -1,0 +1,14 @@
+---
+layout: generic
+title: My Shop Equipment
+headerImage: /images/headers/workbench-header.jpg
+headerDescription: An image of my workbench
+eleventyNavigation:
+  key: My Equipment
+  parent: About
+  order: 3
+---
+
+Short ribs ham hock cow frankfurter porchetta. Ribeye chislic ham hock kielbasa burgdoggen beef. Salami boudin biltong sirloin ground round chuck buffalo tail. Tenderloin buffalo capicola jowl chicken ribeye boudin pastrami porchetta. Pig ball tip landjaeger strip steak.
+
+Corned beef ball tip sirloin picanha cupim turkey chuck. Sirloin bacon shank sausage chicken pork drumstick andouille beef ribs spare ribs cow picanha chuck pork chop venison. Beef swine jowl, kielbasa tri-tip ribeye alcatra burgdoggen brisket ball tip capicola salami landjaeger. Biltong shank pork shankle tenderloin polony pork chop hamburger short ribs picanha drumstick shoulder spare ribs t-bone alcatra.
