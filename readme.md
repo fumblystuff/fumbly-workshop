@@ -31,7 +31,8 @@ Source code project for https://fumblyworkshop.com
 - [x] Highlight Articles submenu with `current` class
 - [x] Breadcrumbs
 - [x] Scanned photos of dad's shop on About page
-- [ ] My workshop page content
+- [x] My workshop page content
+- [ ] Equipment page
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
 - [ ] Newsletter sign-up
 - [ ] Newsletter (https://buttondown.com/)
