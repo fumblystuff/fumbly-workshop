@@ -32,6 +32,7 @@ Source code project for https://fumblyworkshop.com
 - [x] Breadcrumbs
 - [x] Scanned photos of dad's shop on About page
 - [x] My workshop page content
+- [ ] Change algolia indexing approach
 - [ ] Equipment page
 - [ ] Videos page (YouTube channel. Retrieve list via API or populate local data file via api)
 - [ ] Newsletter sign-up
