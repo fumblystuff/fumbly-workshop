@@ -3,6 +3,7 @@
 - [ ] Long drawer pull post, how to mount consistently
 - [ ] Shop Nation order change weirdness https://shopnationstore.com/
 - [ ] Rabet joint
+- [ ] Rockler silicone glue bottles (and the bad alternative)
 - [ ] New corner jig
 - [ ] Infinity bit fiasco
 - [ ] Write a series of posts about joining 1/2 inch plywood
